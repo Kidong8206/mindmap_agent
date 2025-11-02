@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat & Mindmap Builder</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chat & Mindmap Builder</h1>
+            <p>Chat with AI and visualize your conversation as a mindmap</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Chat Section -->
+            <div class="chat-section">
+                <div class="chat-header">
+                    <h2>Chat</h2>
+                    <button id="clearBtn" class="btn btn-secondary">Clear Chat</button>
+                </div>
+                <div id="chatMessages" class="chat-messages"></div>
+                <div class="chat-input">
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Type your message..."
+                        autocomplete="off"
+                    />
+                    <button id="sendBtn" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+
+            <!-- Mindmap Section -->
+            <div class="mindmap-section">
+                <div class="mindmap-header">
+                    <h2>Mindmap</h2>
+                    <button id="generateMindmapBtn" class="btn btn-primary">Generate Mindmap</button>
+                </div>
+                <div id="mindmap" class="mindmap-container">
+                    <div class="mindmap-placeholder">
+                        Chat with the AI, then click "Generate Mindmap" to visualize your conversation
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
