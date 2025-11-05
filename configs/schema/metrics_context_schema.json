@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Context Metrics Schema (Stage 5-1 Output)",
+  "description": "Context rubric evaluation scores",
+  "type": "object",
+  "required": ["session_id", "rubric_type", "metrics"],
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "pattern": "^conv_[0-9]{3}$"
+    },
+    "rubric_type": {
+      "type": "string",
+      "enum": ["context"]
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "main_path_coherence",
+        "branch_detection_recall",
+        "side_main_connection_accuracy",
+        "session_boundary_f1",
+        "summary_path_consistency",
+        "topic_transition_stability",
+        "edge_direction_error_rate",
+        "duplicate_branch_rate",
+        "latency_sec",
+        "parsing_stability"
+      ],
+      "properties": {
+        "main_path_coherence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Semantic coherence of main path embeddings"
+        },
+        "branch_detection_recall": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "F1 score for side branch detection vs golden set"
+        },
+        "side_main_connection_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Accuracy of branch_from and rejoin_turn"
+        },
+        "session_boundary_f1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "F1 for session boundaries vs golden annotations"
+        },
+        "summary_path_consistency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Consistency between summary and actual path turns"
+        },
+        "topic_transition_stability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Smoothness of topic transitions"
+        },
+        "edge_direction_error_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Rate of incorrect edge directions (lower is better)"
+        },
+        "duplicate_branch_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Rate of redundant branches (lower is better)"
+        },
+        "latency_sec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Processing time in seconds (lower is better)"
+        },
+        "parsing_stability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "1 if no parsing errors, 0 otherwise"
+        }
+      }
+    },
+    "weighted_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Weighted average using rubric_weights.json"
+    }
+  }
+}

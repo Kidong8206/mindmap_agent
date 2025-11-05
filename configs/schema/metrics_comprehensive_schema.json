@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Comprehensive Metrics Schema (Stage 5-3 Output)",
+  "description": "Comprehensive rubric combining all evaluations",
+  "type": "object",
+  "required": ["session_id", "rubric_type", "metrics"],
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "pattern": "^conv_[0-9]{3}$"
+    },
+    "rubric_type": {
+      "type": "string",
+      "enum": ["comprehensive"]
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "keyword_coverage_f1",
+        "tree_edit_distance",
+        "golden_similarity",
+        "information_density",
+        "user_rating_correlation",
+        "topic_completeness",
+        "path_accuracy",
+        "overall_quality",
+        "api_cost_efficiency",
+        "total_processing_time"
+      ],
+      "properties": {
+        "keyword_coverage_f1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "F1 score vs golden set keywords"
+        },
+        "tree_edit_distance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Tree edit distance to golden graph (lower is better)"
+        },
+        "golden_similarity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Overall structural similarity to golden graph"
+        },
+        "information_density": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Ratio of informative nodes to total nodes"
+        },
+        "user_rating_correlation": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1,
+          "description": "Spearman correlation with user ratings"
+        },
+        "topic_completeness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Coverage of all main topics discussed"
+        },
+        "path_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Accuracy of main/side path identification"
+        },
+        "overall_quality": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "GPT-evaluated overall quality"
+        },
+        "api_cost_efficiency": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Quality per dollar spent (higher is better)"
+        },
+        "total_processing_time": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Total time for all stages in seconds"
+        }
+      }
+    },
+    "context_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Context rubric weighted score"
+    },
+    "layout_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Layout rubric weighted score"
+    },
+    "comprehensive_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Final weighted score combining all rubrics"
+    },
+    "gpt_feedback": {
+      "type": "string",
+      "description": "Detailed GPT-generated feedback"
+    }
+  }
+}

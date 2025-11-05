@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Layout Metrics Schema (Stage 5-2 Output)",
+  "description": "Layout rubric evaluation scores",
+  "type": "object",
+  "required": ["session_id", "rubric_type", "metrics"],
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "pattern": "^conv_[0-9]{3}$"
+    },
+    "rubric_type": {
+      "type": "string",
+      "enum": ["layout"]
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "depth_balance",
+        "edge_crossing_count",
+        "node_overlap_rate",
+        "aspect_ratio",
+        "visual_symmetry",
+        "label_readability",
+        "color_consistency",
+        "whitespace_utilization",
+        "zoom_invariance",
+        "layout_stability"
+      ],
+      "properties": {
+        "depth_balance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Entropy of node depths (lower entropy = better balance)"
+        },
+        "edge_crossing_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of edge crossings (lower is better)"
+        },
+        "node_overlap_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Ratio of overlapping nodes (lower is better)"
+        },
+        "aspect_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Width/Height ratio (closer to 16:9 or 4:3 is better)"
+        },
+        "visual_symmetry": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Symmetry score of node placement"
+        },
+        "label_readability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "GPT-evaluated label clarity (3-5 words, clear meaning)"
+        },
+        "color_consistency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Color scheme consistency (main/side/root distinction)"
+        },
+        "whitespace_utilization": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Effective use of canvas space (not too sparse/crowded)"
+        },
+        "zoom_invariance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Readability at different zoom levels"
+        },
+        "layout_stability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Stability across multiple runs with same input"
+        }
+      }
+    },
+    "weighted_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

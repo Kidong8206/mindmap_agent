@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Graph Schema (Stage 4 Output)",
+  "description": "Final mindmap graph with nodes, edges, and layout",
+  "type": "object",
+  "required": ["session_id", "algorithm", "graph"],
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "pattern": "^conv_[0-9]{3}$"
+    },
+    "algorithm": {
+      "type": "string",
+      "description": "Layout algorithm used"
+    },
+    "graph": {
+      "type": "object",
+      "required": ["nodes", "edges", "layout"],
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "type", "path_id", "depth", "x", "y", "size", "color"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^node_[0-9]+$"
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 50,
+                "description": "Node label (keyword)"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["root", "main", "side"],
+                "description": "Node type in hierarchy"
+              },
+              "path_id": {
+                "type": "string",
+                "pattern": "^(main|side)_[0-9]+(_[0-9]+)?$"
+              },
+              "depth": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Depth in tree (0 = root)"
+              },
+              "x": {
+                "type": "number",
+                "description": "X coordinate in pixels"
+              },
+              "y": {
+                "type": "number",
+                "description": "Y coordinate in pixels"
+              },
+              "size": {
+                "type": "number",
+                "minimum": 10,
+                "maximum": 50,
+                "description": "Node size (radius in pixels)"
+              },
+              "color": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$",
+                "description": "Hex color code"
+              }
+            }
+          }
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "source", "target", "type", "weight"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^edge_[0-9]+_[0-9]+$"
+              },
+              "source": {
+                "type": "string",
+                "pattern": "^node_[0-9]+$"
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^node_[0-9]+$"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["main", "side", "rejoin"],
+                "description": "Edge type"
+              },
+              "weight": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1,
+                "description": "Connection strength"
+              }
+            }
+          }
+        },
+        "layout": {
+          "type": "object",
+          "required": ["type", "direction", "width", "height"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["hierarchical", "radial", "timeline", "force_directed"]
+            },
+            "direction": {
+              "type": "string",
+              "enum": ["top-down", "left-right", "radial-out", "chronological"]
+            },
+            "width": {
+              "type": "number",
+              "minimum": 500
+            },
+            "height": {
+              "type": "number",
+              "minimum": 400
+            }
+          }
+        }
+      }
+    }
+  }
+}

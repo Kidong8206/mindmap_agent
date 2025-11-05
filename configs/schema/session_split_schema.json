@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session Split Schema (Stage 1 Output)",
+  "description": "Conversation divided into topical sessions",
+  "type": "object",
+  "required": ["session_id", "algorithm", "sessions"],
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "pattern": "^conv_[0-9]{3}$"
+    },
+    "algorithm": {
+      "type": "string",
+      "description": "Session classification algorithm used"
+    },
+    "sessions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["session_num", "turn_range", "summary", "topic_label", "boundary_confidence"],
+        "properties": {
+          "session_num": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Sequential session number"
+          },
+          "turn_range": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "description": "[start_turn, end_turn] inclusive"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 5,
+            "description": "Brief session summary"
+          },
+          "topic_label": {
+            "type": "string",
+            "description": "Categorized topic (e.g., '학습-질문', '실습-코딩')"
+          },
+          "boundary_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence score for session boundary"
+          }
+        }
+      }
+    }
+  }
+}

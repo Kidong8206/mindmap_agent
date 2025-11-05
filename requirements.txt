@@ -1,0 +1,40 @@
+# ===== Core GPT API =====
+openai==1.12.0
+tiktoken==0.6.0
+
+# ===== Data Validation & Schema =====
+pydantic==2.6.0
+jsonschema==4.21.0
+
+# ===== Scientific Computing (Minimal) =====
+numpy==1.26.3
+pandas==2.2.0
+scipy==1.12.0
+
+# ===== Graph & Visualization =====
+networkx==3.2.1
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# ===== Web Framework =====
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+streamlit==1.31.0
+
+# ===== Utilities =====
+python-dotenv==1.0.1
+tenacity==8.2.3
+pyyaml==6.0.1
+aiofiles==23.2.1
+
+# ===== Optional: Embeddings (for evaluation only) =====
+sentence-transformers==2.3.1
+
+# ===== Development Tools =====
+pytest==8.0.0
+pytest-asyncio==0.23.4
+black==24.1.1
+ruff==0.2.0
+
+# ===== Logging & Monitoring =====
+loguru==0.7.2
