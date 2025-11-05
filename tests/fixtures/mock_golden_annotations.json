@@ -1,0 +1,39 @@
+{
+  "true_session_boundaries": [0, 4, 6],
+  "true_main_path_turns": [0, 1, 2, 3, 6, 7, 8, 9],
+  "true_side_branches": [
+    {
+      "turns": [4, 5],
+      "branch_from": 3,
+      "rejoin": 6,
+      "topic": "클래스 컴포넌트 비교"
+    }
+  ],
+  "true_keywords": [
+    "React Hook",
+    "useState",
+    "함수형 컴포넌트",
+    "useEffect",
+    "사이드 이펙트",
+    "API 호출",
+    "클래스 컴포넌트",
+    "this.state"
+  ],
+  "ideal_graph": {
+    "nodes": [
+      {"id": "golden_0", "label": "React Hook"},
+      {"id": "golden_1", "label": "useState"},
+      {"id": "golden_2", "label": "함수형 컴포넌트"},
+      {"id": "golden_3", "label": "useEffect"},
+      {"id": "golden_4", "label": "클래스 컴포넌트"},
+      {"id": "golden_5", "label": "API 호출"}
+    ],
+    "edges": [
+      {"source": "golden_0", "target": "golden_1"},
+      {"source": "golden_0", "target": "golden_2"},
+      {"source": "golden_0", "target": "golden_3"},
+      {"source": "golden_1", "target": "golden_4"},
+      {"source": "golden_3", "target": "golden_5"}
+    ]
+  }
+}

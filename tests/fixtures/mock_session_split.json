@@ -1,0 +1,27 @@
+{
+  "session_id": "test_conv_001",
+  "algorithm": "mock_session_classifier",
+  "sessions": [
+    {
+      "session_num": 0,
+      "turn_range": [0, 3],
+      "summary": "React Hook 기본 개념",
+      "topic_label": "학습-개념",
+      "boundary_confidence": 0.95
+    },
+    {
+      "session_num": 1,
+      "turn_range": [4, 5],
+      "summary": "클래스 컴포넌트 비교",
+      "topic_label": "학습-비교",
+      "boundary_confidence": 0.88
+    },
+    {
+      "session_num": 2,
+      "turn_range": [6, 9],
+      "summary": "useEffect 활용",
+      "topic_label": "학습-실습",
+      "boundary_confidence": 0.92
+    }
+  ]
+}

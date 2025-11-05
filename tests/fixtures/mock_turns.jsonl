@@ -1,0 +1,12 @@
+[
+  {"turn_id": 0, "role": "user", "text": "React Hook에 대해 알려주세요", "timestamp": "2024-01-15T10:00:00Z"},
+  {"turn_id": 1, "role": "assistant", "text": "React Hook은 함수형 컴포넌트에서 상태를 사용할 수 있게 해주는 기능입니다", "timestamp": "2024-01-15T10:00:05Z"},
+  {"turn_id": 2, "role": "user", "text": "useState는 어떻게 사용하나요?", "timestamp": "2024-01-15T10:00:10Z"},
+  {"turn_id": 3, "role": "assistant", "text": "const [state, setState] = useState(0) 형태로 사용합니다", "timestamp": "2024-01-15T10:00:15Z"},
+  {"turn_id": 4, "role": "user", "text": "클래스 컴포넌트와 비교하면 어떤 차이가 있나요?", "timestamp": "2024-01-15T10:00:20Z"},
+  {"turn_id": 5, "role": "assistant", "text": "클래스는 this.state를 사용하지만 Hook은 더 간결합니다", "timestamp": "2024-01-15T10:00:25Z"},
+  {"turn_id": 6, "role": "user", "text": "useEffect는 무엇인가요?", "timestamp": "2024-01-15T10:00:30Z"},
+  {"turn_id": 7, "role": "assistant", "text": "useEffect는 사이드 이펙트를 처리하는 Hook입니다", "timestamp": "2024-01-15T10:00:35Z"},
+  {"turn_id": 8, "role": "user", "text": "API 호출 예제를 보여주세요", "timestamp": "2024-01-15T10:00:40Z"},
+  {"turn_id": 9, "role": "assistant", "text": "useEffect 안에서 fetch를 사용하여 API를 호출할 수 있습니다", "timestamp": "2024-01-15T10:00:45Z"}
+]

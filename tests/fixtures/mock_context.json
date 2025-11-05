@@ -1,0 +1,37 @@
+{
+  "session_id": "test_conv_001",
+  "algorithm": "mock_context_analyzer",
+  "contexts": [
+    {
+      "session_num": 0,
+      "main_path": {
+        "path_id": "main_0",
+        "turns": [0, 1, 2, 3],
+        "topic": "React Hook 기본",
+        "keywords": ["React Hook", "useState", "함수형 컴포넌트"],
+        "coherence_score": 0.89
+      },
+      "side_paths": []
+    },
+    {
+      "session_num": 1,
+      "main_path": {
+        "path_id": "main_1",
+        "turns": [6, 7, 8, 9],
+        "topic": "useEffect 활용",
+        "keywords": ["useEffect", "사이드 이펙트", "API 호출"],
+        "coherence_score": 0.85
+      },
+      "side_paths": [
+        {
+          "path_id": "side_1_1",
+          "turns": [4, 5],
+          "topic": "클래스 컴포넌트 비교",
+          "keywords": ["클래스", "this.state"],
+          "branch_from_turn": 3,
+          "rejoin_turn": 6
+        }
+      ]
+    }
+  ]
+}

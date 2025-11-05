@@ -1,0 +1,117 @@
+{
+  "session_id": "test_conv_001",
+  "algorithm": "mock_layout_generator",
+  "graph": {
+    "nodes": [
+      {
+        "id": "node_0",
+        "label": "React Hook",
+        "type": "root",
+        "path_id": "main_0",
+        "depth": 0,
+        "x": 500,
+        "y": 50,
+        "size": 30,
+        "color": "#3498db"
+      },
+      {
+        "id": "node_1",
+        "label": "useState",
+        "type": "main",
+        "path_id": "main_0",
+        "depth": 1,
+        "x": 350,
+        "y": 150,
+        "size": 25,
+        "color": "#2ecc71"
+      },
+      {
+        "id": "node_2",
+        "label": "함수형 컴포넌트",
+        "type": "main",
+        "path_id": "main_0",
+        "depth": 1,
+        "x": 650,
+        "y": 150,
+        "size": 25,
+        "color": "#2ecc71"
+      },
+      {
+        "id": "node_3",
+        "label": "useEffect",
+        "type": "main",
+        "path_id": "main_1",
+        "depth": 1,
+        "x": 500,
+        "y": 250,
+        "size": 25,
+        "color": "#2ecc71"
+      },
+      {
+        "id": "node_4",
+        "label": "클래스 컴포넌트",
+        "type": "side",
+        "path_id": "side_1_1",
+        "depth": 2,
+        "x": 200,
+        "y": 250,
+        "size": 20,
+        "color": "#95a5a6"
+      },
+      {
+        "id": "node_5",
+        "label": "API 호출",
+        "type": "main",
+        "path_id": "main_1",
+        "depth": 2,
+        "x": 500,
+        "y": 350,
+        "size": 20,
+        "color": "#2ecc71"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_0_1",
+        "source": "node_0",
+        "target": "node_1",
+        "type": "main",
+        "weight": 0.88
+      },
+      {
+        "id": "edge_0_2",
+        "source": "node_0",
+        "target": "node_2",
+        "type": "main",
+        "weight": 0.85
+      },
+      {
+        "id": "edge_0_3",
+        "source": "node_0",
+        "target": "node_3",
+        "type": "main",
+        "weight": 0.92
+      },
+      {
+        "id": "edge_1_4",
+        "source": "node_1",
+        "target": "node_4",
+        "type": "side",
+        "weight": 0.75
+      },
+      {
+        "id": "edge_3_5",
+        "source": "node_3",
+        "target": "node_5",
+        "type": "main",
+        "weight": 0.83
+      }
+    ],
+    "layout": {
+      "type": "hierarchical",
+      "direction": "top-down",
+      "width": 1000,
+      "height": 600
+    }
+  }
+}
