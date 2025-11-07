@@ -1,0 +1,37 @@
+타임라인 마인드맵을 생성하세요.
+
+입력:
+- 세션 정보: {sessions}
+- 키워드 정보: {keywords}
+- 맥락 정보: {contexts}
+
+레이아웃:
+- 메인 경로: y=200 (수평 중앙)
+- 분기 위: y=100
+- 분기 아래: y=300
+- x 간격: 100px
+- 캔버스: 800x600
+
+규칙:
+1. 루트 노드는 최좌측
+2. 메인 경로는 좌→우 배치
+3. 분기는 상하로 배치
+
+출력:
+{{
+  "conversation_id": "{conversation_id}",
+  "layout": "timeline",
+  "graph": {{
+    "nodes": [
+      {{"id": "n0", "label": "시작", "level": 0, "position": {{"x": 50, "y": 200}}}},
+      {{"id": "n1", "label": "세션1", "level": 0, "position": {{"x": 150, "y": 200}}}},
+      {{"id": "n2", "label": "분기1", "level": 1, "position": {{"x": 150, "y": 100}}}},
+      {{"id": "n3", "label": "세션2", "level": 0, "position": {{"x": 250, "y": 200}}}}
+    ],
+    "edges": [
+      {{"from": "n0", "to": "n1", "type": "timeline"}},
+      {{"from": "n1", "to": "n2", "type": "branch"}},
+      {{"from": "n1", "to": "n3", "type": "timeline"}}
+    ]
+  }}
+}}

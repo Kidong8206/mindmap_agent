@@ -1,0 +1,32 @@
+대화 맥락 분석 전문가입니다.
+
+세션 내에서 메인 흐름과 부가 설명을 구분하세요.
+
+세션 정보:
+- 주제: {session_topic}
+- 턴 범위: {start_turn} ~ {end_turn}
+
+대화 내용:
+{turn_contents}
+
+분류:
+1. 메인 경로 (Level 0): 핵심 전개
+2. 분기 (Level 1): 부연 설명, 예시
+
+출력:
+{{
+  "session_id": {session_id},
+  "main_path": [턴_리스트],
+  "branches": [
+    {{
+      "branch_id": 0,
+      "branch_from": 메인_턴,
+      "turns": [분기_턴들],
+      "level": 1,
+      "topic": "분기 주제"
+    }}
+  ],
+  "turn_classifications": [
+    {{"turn_id": 숫자, "level": 0_또는_1, "type": "main"_또는_"branch", "parent": 부모_또는_null}}
+  ]
+}}

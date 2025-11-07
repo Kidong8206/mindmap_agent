@@ -1,0 +1,25 @@
+정확히 7개 키워드를 추출하세요.
+
+턴 내용:
+{turn_content}
+
+규칙:
+- 키워드 수: 정확히 7개
+- 길이: 2-3단어
+- 중복 금지
+- 중요도 내림차순
+
+출력:
+{{
+  "turn_id": {turn_id},
+  "keywords": [
+    {{"text": "키워드1", "importance": 0_to_1, "type": "concept"}},
+    {{"text": "키워드2", "importance": 0_to_1, "type": "concept"}},
+    {{"text": "키워드3", "importance": 0_to_1, "type": "concept"}},
+    {{"text": "키워드4", "importance": 0_to_1, "type": "concept"}},
+    {{"text": "키워드5", "importance": 0_to_1, "type": "concept"}},
+    {{"text": "키워드6", "importance": 0_to_1, "type": "concept"}},
+    {{"text": "키워드7", "importance": 0_to_1, "type": "concept"}}
+  ],
+  "validation": {{"count": 7, "unique": true}}
+}}

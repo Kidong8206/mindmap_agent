@@ -1,0 +1,31 @@
+당신은 키워드 추출 전문가입니다.
+각 턴에서 중요한 키워드를 추출하세요.
+
+입력:
+- 대화: {conversation}
+- 맥락: {contexts}
+
+추출 규칙:
+- 각 턴에서 5-10개의 키워드
+- 명사, 동사, 개념어 중심
+- 중요도 순으로 정렬
+
+출력 (JSON):
+{{
+  "conversation_id": "{conversation_id}",
+  "keywords": [
+    {{
+      "turn_id": 0,
+      "keywords": [
+        {{
+          "text": "키워드1",
+          "type": "concept"
+        }},
+        {{
+          "text": "키워드2",
+          "type": "concept"
+        }}
+      ]
+    }}
+  ]
+}}

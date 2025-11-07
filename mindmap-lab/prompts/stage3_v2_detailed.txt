@@ -1,0 +1,21 @@
+맥락을 고려하여 키워드를 추출하세요.
+
+입력:
+- 턴: {turn_content}
+- 세션 주제: {session_topic}
+- 레벨: {level} (0=메인, 1=분기)
+
+타입: concept | person | tool | method
+
+출력:
+{{
+  "turn_id": {turn_id},
+  "keywords": [
+    {{
+      "text": "키워드",
+      "importance": 0_to_1,
+      "type": "concept"_또는_"person"_또는_"tool"_또는_"method",
+      "synonyms": ["동의어1", "동의어2"]
+    }}
+  ]
+}}

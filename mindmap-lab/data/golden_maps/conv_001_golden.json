@@ -1,0 +1,229 @@
+{
+  "conversation_id": "conv_001",
+  "layout": "hierarchical",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "마인드맵",
+        "level": 0,
+        "position": {
+          "x": 400,
+          "y": 50
+        }
+      },
+      {
+        "id": "n1",
+        "label": "정의",
+        "level": 1,
+        "position": {
+          "x": 200,
+          "y": 170
+        }
+      },
+      {
+        "id": "n2",
+        "label": "시각적 도구",
+        "level": 2,
+        "position": {
+          "x": 150,
+          "y": 290
+        }
+      },
+      {
+        "id": "n3",
+        "label": "아이디어 정리",
+        "level": 2,
+        "position": {
+          "x": 250,
+          "y": 290
+        }
+      },
+      {
+        "id": "n4",
+        "label": "생성 방법",
+        "level": 1,
+        "position": {
+          "x": 400,
+          "y": 170
+        }
+      },
+      {
+        "id": "n5",
+        "label": "중심 주제",
+        "level": 2,
+        "position": {
+          "x": 350,
+          "y": 290
+        }
+      },
+      {
+        "id": "n6",
+        "label": "가지 구조",
+        "level": 2,
+        "position": {
+          "x": 450,
+          "y": 290
+        }
+      },
+      {
+        "id": "n7",
+        "label": "색상 활용",
+        "level": 2,
+        "position": {
+          "x": 550,
+          "y": 290
+        }
+      },
+      {
+        "id": "n8",
+        "label": "도구",
+        "level": 1,
+        "position": {
+          "x": 600,
+          "y": 170
+        }
+      },
+      {
+        "id": "n9",
+        "label": "디지털",
+        "level": 2,
+        "position": {
+          "x": 550,
+          "y": 290
+        }
+      },
+      {
+        "id": "n10",
+        "label": "MindMeister",
+        "level": 3,
+        "position": {
+          "x": 500,
+          "y": 410
+        }
+      },
+      {
+        "id": "n11",
+        "label": "XMind",
+        "level": 3,
+        "position": {
+          "x": 550,
+          "y": 410
+        }
+      },
+      {
+        "id": "n12",
+        "label": "Miro",
+        "level": 3,
+        "position": {
+          "x": 600,
+          "y": 410
+        }
+      },
+      {
+        "id": "n13",
+        "label": "손그림",
+        "level": 2,
+        "position": {
+          "x": 650,
+          "y": 290
+        }
+      },
+      {
+        "id": "n14",
+        "label": "활용",
+        "level": 1,
+        "position": {
+          "x": 800,
+          "y": 170
+        }
+      },
+      {
+        "id": "n15",
+        "label": "업무 정리",
+        "level": 2,
+        "position": {
+          "x": 800,
+          "y": 290
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n1",
+        "to": "n3",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n0",
+        "to": "n4",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n4",
+        "to": "n5",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n4",
+        "to": "n6",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n4",
+        "to": "n7",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n0",
+        "to": "n8",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n8",
+        "to": "n9",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n9",
+        "to": "n10",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n9",
+        "to": "n11",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n9",
+        "to": "n12",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n8",
+        "to": "n13",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n0",
+        "to": "n14",
+        "type": "hierarchy"
+      },
+      {
+        "from": "n14",
+        "to": "n15",
+        "type": "hierarchy"
+      }
+    ]
+  }
+}

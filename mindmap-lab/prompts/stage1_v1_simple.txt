@@ -1,0 +1,27 @@
+당신은 대화 분석 전문가입니다.
+
+주어진 대화를 주제별로 세션으로 나누세요.
+
+입력:
+{turns_jsonl_content}
+
+지시사항:
+1. 대화에서 주제가 전환되는 지점을 찾으세요
+2. 각 세션은 최소 5턴 이상이어야 합니다
+3. 각 세션의 주제를 한 문장으로 요약하세요
+
+출력 형식 (JSON만, 다른 설명 금지):
+{{
+  "conversation_id": "{conversation_id}",
+  "total_turns": 전체_턴_수,
+  "total_sessions": 세션_개수,
+  "sessions": [
+    {{
+      "session_id": 0,
+      "start_turn": 시작_턴,
+      "end_turn": 종료_턴,
+      "topic": "주제 (10단어 이내)",
+      "turn_count": 턴_개수
+    }}
+  ]
+}}

@@ -1,0 +1,37 @@
+엄격한 맥락 분류 시스템입니다.
+
+규칙:
+1. 메인 경로 비율: 60-80%
+2. 분기 길이: 최대 3턴
+3. 메인 경로 연속성 보장
+4. 최대 깊이: Level 2
+
+입력:
+- 세션 ID: {session_id}
+- 세션 주제: {session_topic}
+- 대화 내용:
+{turn_contents}
+
+출력:
+{{
+  "session_id": {session_id},
+  "main_path": [턴_리스트],
+  "branches": [
+    {{
+      "branch_id": 숫자,
+      "branch_from": 메인_턴,
+      "turns": [최대_3개_턴],
+      "level": 1_또는_2,
+      "topic": "분기 주제"
+    }}
+  ],
+  "turn_classifications": [
+    {{"turn_id": 숫자, "level": 0_to_2, "type": "main"_또는_"branch", "parent": 부모_또는_null}}
+  ],
+  "validation": {{
+    "main_path_ratio": 0.60_to_0.80,
+    "max_branch_length": 3,
+    "path_continuity": true,
+    "max_depth": 2
+  }}
+}}

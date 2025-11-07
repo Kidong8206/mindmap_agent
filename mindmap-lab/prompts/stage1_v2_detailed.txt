@@ -1,0 +1,28 @@
+당신은 담화 분석 전문가입니다.
+
+주어진 대화를 의미 단위로 세밀하게 세션 분류하세요.
+
+입력:
+{turns_jsonl_content}
+
+분석 기준:
+1. 명시적 전환: "이제", "다음으로", "그럼"
+2. 암시적 전환: 질문 유형의 급격한 변화
+3. 세션 길이: 최소 5턴, 최적 8-15턴, 최대 25턴
+
+출력 형식:
+{{
+  "conversation_id": "{conversation_id}",
+  "total_turns": 숫자,
+  "total_sessions": 숫자,
+  "sessions": [
+    {{
+      "session_id": 0,
+      "start_turn": 숫자,
+      "end_turn": 숫자,
+      "topic": "구체적 주제",
+      "turn_count": 숫자,
+      "keywords": ["키워드1", "키워드2"]
+    }}
+  ]
+}}

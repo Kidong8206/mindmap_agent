@@ -1,0 +1,35 @@
+계층형 마인드맵을 생성하세요.
+
+입력:
+- 세션 정보: {sessions}
+- 키워드 정보: {keywords}
+- 맥락 정보: {contexts}
+
+레이아웃:
+- 상하 배치
+- Level 간격: 120px
+- 노드 간격: 80px
+- 캔버스: 800x600
+
+규칙:
+1. 루트 노드는 대화 주제
+2. Level 1 = 세션별 주요 주제
+3. Level 2 = 각 세션의 핵심 키워드
+4. 메인 경로는 중앙 배치, 분기는 좌우 배치
+
+출력:
+{{
+  "conversation_id": "{conversation_id}",
+  "layout": "hierarchical",
+  "graph": {{
+    "nodes": [
+      {{"id": "n0", "label": "대화 주제", "level": 0, "position": {{"x": 400, "y": 50}}}},
+      {{"id": "n1", "label": "세션1 주제", "level": 1, "position": {{"x": 200, "y": 170}}}},
+      {{"id": "n2", "label": "키워드1", "level": 2, "position": {{"x": 150, "y": 290}}}}
+    ],
+    "edges": [
+      {{"from": "n0", "to": "n1", "type": "hierarchy"}},
+      {{"from": "n1", "to": "n2", "type": "hierarchy"}}
+    ]
+  }}
+}}

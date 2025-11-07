@@ -1,0 +1,17 @@
+각 대화 턴에서 핵심 키워드 5-10개를 추출하세요.
+
+턴 내용:
+{turn_content}
+
+규칙:
+- 명사 또는 명사구
+- 1-4단어 길이
+- 중요도 0-1 점수
+
+출력:
+{{
+  "turn_id": {turn_id},
+  "keywords": [
+    {{"text": "키워드", "importance": 0_to_1, "type": "concept"}}
+  ]
+}}

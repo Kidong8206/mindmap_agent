@@ -1,0 +1,39 @@
+방사형 마인드맵을 생성하세요.
+
+입력:
+- 세션 정보: {sessions}
+- 키워드 정보: {keywords}
+- 맥락 정보: {contexts}
+
+레이아웃:
+- 중심: (400, 300)
+- Level 1 반지름: 150px
+- Level 2 반지름: 250px
+- 캔버스: 800x600
+
+규칙:
+1. 중심에서 방사형으로 확장
+2. 같은 레벨은 같은 반지름
+3. 각도는 균등 분배
+
+계산 공식:
+- x = center_x + radius * cos(angle)
+- y = center_y + radius * sin(angle)
+- angle = (index / total_nodes) * 2π
+
+출력:
+{{
+  "conversation_id": "{conversation_id}",
+  "layout": "radial",
+  "graph": {{
+    "nodes": [
+      {{"id": "n0", "label": "중심", "level": 0, "position": {{"x": 400, "y": 300}}}},
+      {{"id": "n1", "label": "세션1", "level": 1, "position": {{"x": 550, "y": 300}}}},
+      {{"id": "n2", "label": "세션2", "level": 1, "position": {{"x": 400, "y": 450}}}}
+    ],
+    "edges": [
+      {{"from": "n0", "to": "n1", "type": "radial"}},
+      {{"from": "n0", "to": "n2", "type": "radial"}}
+    ]
+  }}
+}}

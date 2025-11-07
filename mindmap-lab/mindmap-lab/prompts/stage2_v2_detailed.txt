@@ -1,0 +1,38 @@
+당신은 계층적 대화 구조 분석 전문가입니다.
+세션 내 턴들의 계층 구조를 상세히 분석하세요.
+
+입력:
+- 세션: {sessions}
+- 대화: {conversation}
+
+계층 정의:
+- **Level 0**: 메인 경로 (핵심 주제)
+- **Level 1**: 1차 분기 (직접 관련 설명)
+- **Level 2**: 2차 분기 (부가 정보)
+
+분기 유형:
+- example: 예시 제공
+- background: 배경 설명
+- elaboration: 상세 설명
+- clarification: 명확화
+
+출력 (JSON):
+{{
+  "conversation_id": "{conversation_id}",
+  "contexts": [
+    {{
+      "turn_id": 0,
+      "session_id": "s0",
+      "level": 0,
+      "parent_turn_id": null,
+      "branch_type": null
+    }},
+    {{
+      "turn_id": 1,
+      "session_id": "s0",
+      "level": 1,
+      "parent_turn_id": 0,
+      "branch_type": "example"
+    }}
+  ]
+}}

@@ -1,0 +1,39 @@
+담화 구조 분석 전문가입니다.
+
+계층적 맥락 구조를 정밀 분석하세요.
+
+입력:
+- 세션 ID: {session_id}
+- 세션 주제: {session_topic}
+- 턴 범위: {start_turn} ~ {end_turn}
+- 대화 내용:
+{turn_contents}
+
+분석:
+1. 메인 경로: 논증/설명/탐색 구조
+2. 분기 감지: "예를 들어", "참고로", "그런데"
+3. 깊이 판정: Level 0/1/2
+4. 부모-자식 관계
+
+출력:
+{{
+  "session_id": {session_id},
+  "main_path": [턴_리스트],
+  "branches": [
+    {{
+      "branch_id": 숫자,
+      "branch_from": 메인_턴,
+      "turns": [분기_턴들],
+      "level": 1_또는_2,
+      "topic": "분기 주제",
+      "function": "example" | "background" | "elaboration"
+    }}
+  ],
+  "turn_classifications": [
+    {{"turn_id": 숫자, "level": 0_또는_1_또는_2, "type": "main"_또는_"branch", "parent": 부모_또는_null}}
+  ],
+  "structure_analysis": {{
+    "main_path_coherence": 0_to_1,
+    "branch_count": 숫자
+  }}
+}}

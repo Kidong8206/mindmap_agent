@@ -1,0 +1,31 @@
+엄격한 대화 세그먼테이션 시스템입니다.
+
+대화를 정확히 3-7개 세션으로 분류하세요.
+
+입력:
+{turns_jsonl_content}
+
+규칙:
+1. 세션 개수: 반드시 3-7개
+2. 최소 길이: 각 세션 최소 8턴
+3. 명확한 경계만 인정
+
+출력:
+{{
+  "conversation_id": "{conversation_id}",
+  "total_turns": 숫자,
+  "total_sessions": 3_to_7,
+  "sessions": [
+    {{
+      "session_id": 0,
+      "start_turn": 숫자,
+      "end_turn": 숫자,
+      "topic": "명확한 주제",
+      "turn_count": 숫자
+    }}
+  ],
+  "validation": {{
+    "session_count_ok": true,
+    "min_length_ok": true
+  }}
+}}

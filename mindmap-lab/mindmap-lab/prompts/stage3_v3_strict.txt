@@ -1,0 +1,37 @@
+당신은 엄격한 키워드 추출 전문가입니다.
+정확히 규칙을 따라 키워드를 추출하세요.
+
+입력:
+- 대화: {conversation}
+- 맥락: {contexts}
+
+엄격한 규칙:
+1. **키워드 개수**: 각 턴 정확히 7개 (필수)
+2. **중복 금지**: 같은 턴 내 중복 불가
+3. **길이 제한**: 각 키워드 2-15자
+4. **필수 타입**: concept 포함 필수
+
+검증 체크리스트:
+- [ ] 모든 턴이 정확히 7개
+- [ ] 턴 내 중복 없음
+- [ ] 모든 키워드 2-15자
+- [ ] concept 타입 포함
+
+출력 (JSON):
+{{
+  "conversation_id": "{conversation_id}",
+  "keywords": [
+    {{
+      "turn_id": 0,
+      "keywords": [
+        {{"text": "키워드1", "type": "concept"}},
+        {{"text": "키워드2", "type": "concept"}},
+        {{"text": "키워드3", "type": "concept"}},
+        {{"text": "키워드4", "type": "concept"}},
+        {{"text": "키워드5", "type": "concept"}},
+        {{"text": "키워드6", "type": "concept"}},
+        {{"text": "키워드7", "type": "concept"}}
+      ]
+    }}
+  ]
+}}
