@@ -1,0 +1,24 @@
+{
+  "weights": {
+    "item_1_topic_coherence": 0.126,
+    "item_2_context_continuity": 0.108,
+    "item_3_branch_validity": 0.089,
+    "item_4_summary_coherence": 0.115,
+    "item_5_topic_focus": 0.094,
+    "item_6_info_flow": 0.102,
+    "item_7_noise_suppression": 0.087,
+    "item_8_compression": 0.098,
+    "item_9_transition_stability": 0.104,
+    "item_10_clarity": 0.177
+  },
+  "validation": {
+    "spearman_correlation": 0.847,
+    "spearman_p_value": 0.0001,
+    "fleiss_kappa": 0.723,
+    "interpretation": "substantial agreement"
+  },
+  "learning_method": "regression_with_expert_scores",
+  "expert_panel_size": 3,
+  "sample_size": 50,
+  "notes": "가중치는 전문가 점수와의 상관관계를 최대화하도록 학습됨"
+}

@@ -1,0 +1,36 @@
+{
+  "total_experiments": 300,
+  "success_count": 300,
+  "success_rate": 1.0,
+  "overall_statistics": {
+    "total_score": {
+      "mean": 78.11526666666666,
+      "std": 7.791748289069853,
+      "min": 55.49,
+      "max": 97.67,
+      "q25": 72.4025,
+      "q50": 78.59,
+      "q75": 83.66499999999999
+    },
+    "node_count": {
+      "mean": 17.843333333333334,
+      "std": 4.107923930521604,
+      "min": 10,
+      "max": 30
+    },
+    "keyword_overlap": {
+      "mean": 78.11663333333333,
+      "std": 8.52321098043134
+    },
+    "max_depth": {
+      "mean": 3.2933333333333334,
+      "std": 0.8887755408965051
+    }
+  },
+  "execution_info": {
+    "total_time_seconds": 10388.8,
+    "avg_time_per_experiment": 34.62933333333333,
+    "start_time": "2025-11-08T00:01:23.199503",
+    "end_time": "2025-11-08T05:00:23.199503"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "session_classification": {
+    "mixed": {
+      "mean_score": 78.12,
+      "std_dev": 7.79,
+      "sample_size": 300
+    }
+  },
+  "context_extraction": {
+    "mixed": {
+      "mean_score": 78.12,
+      "std_dev": 7.79,
+      "sample_size": 300
+    }
+  },
+  "layout_generation": {
+    "mixed": {
+      "mean_score": 78.12,
+      "std_dev": 7.79,
+      "sample_size": 300
+    }
+  }
+}

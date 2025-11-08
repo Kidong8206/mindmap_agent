@@ -1,0 +1,91 @@
+{
+  "method": "Tukey HSD (Honestly Significant Difference)",
+  "alpha": 0.05,
+  "total_comparisons": 7,
+  "significant_comparisons": 4,
+  "comparisons": [
+    {
+      "group1": "comb_13",
+      "group2": "comb_10",
+      "mean_diff": 0.32,
+      "abs_mean_diff": 0.32,
+      "p_value": 0.8395,
+      "significant": false,
+      "comparison_type": "top_vs_top"
+    },
+    {
+      "group1": "comb_13",
+      "group2": "comb_07",
+      "mean_diff": 0.77,
+      "abs_mean_diff": 0.77,
+      "p_value": 0.6489,
+      "significant": false,
+      "comparison_type": "top_vs_top"
+    },
+    {
+      "group1": "comb_10",
+      "group2": "comb_07",
+      "mean_diff": 0.45,
+      "abs_mean_diff": 0.45,
+      "p_value": 0.7545,
+      "significant": false,
+      "comparison_type": "top_vs_top"
+    },
+    {
+      "group1": "comb_13",
+      "group2": "comb_06",
+      "mean_diff": 12.15,
+      "abs_mean_diff": 12.15,
+      "p_value": 0.0,
+      "significant": true,
+      "comparison_type": "top_vs_bottom"
+    },
+    {
+      "group1": "comb_13",
+      "group2": "comb_15",
+      "mean_diff": 12.96,
+      "abs_mean_diff": 12.96,
+      "p_value": 0.0,
+      "significant": true,
+      "comparison_type": "top_vs_bottom"
+    },
+    {
+      "group1": "comb_10",
+      "group2": "comb_06",
+      "mean_diff": 11.83,
+      "abs_mean_diff": 11.83,
+      "p_value": 0.0,
+      "significant": true,
+      "comparison_type": "top_vs_bottom"
+    },
+    {
+      "group1": "comb_10",
+      "group2": "comb_15",
+      "mean_diff": 12.64,
+      "abs_mean_diff": 12.64,
+      "p_value": 0.0,
+      "significant": true,
+      "comparison_type": "top_vs_bottom"
+    }
+  ],
+  "summary": {
+    "largest_difference": {
+      "group1": "comb_13",
+      "group2": "comb_15",
+      "mean_diff": 12.96,
+      "abs_mean_diff": 12.96,
+      "p_value": 0.0,
+      "significant": true,
+      "comparison_type": "top_vs_bottom"
+    },
+    "smallest_difference": {
+      "group1": "comb_13",
+      "group2": "comb_10",
+      "mean_diff": 0.32,
+      "abs_mean_diff": 0.32,
+      "p_value": 0.8395,
+      "significant": false,
+      "comparison_type": "top_vs_top"
+    }
+  }
+}

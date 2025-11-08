@@ -4,4 +4,8 @@
 
 # Test scripts
 test_*.py
-outputs/
+
+# Outputs (but include mock_data for report)
+outputs/*
+!outputs/mock_data/
+!outputs/mock_data/**
