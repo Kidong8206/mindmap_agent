@@ -1,6 +1,67 @@
 # 🧪 마인드맵 생성 조합 실험실
 
-GPT-4o API 기반 마인드맵 자동 생성 시스템 - 20개 대화 × 15개 조합 = 300회 실험
+Claude vs GPT-4 API 비교 연구 - 20개 대화 × 15개 조합 = 300회 실험
+
+---
+
+## 🚀 Google Colab 실험 (권장)
+
+### 📓 Claude 실험 노트북
+
+**Colab에서 바로 열기:**
+```
+https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Mindmap_Experiment_Colab.ipynb
+```
+
+- **API**: Anthropic Claude Sonnet 4.5
+- **비용**: $5-8 | **시간**: 3-5시간 | **실험 수**: 300회
+
+### 📓 GPT-4 실험 노트북
+
+**Colab에서 바로 열기:**
+```
+https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb
+```
+
+- **API**: OpenAI GPT-4 Turbo
+- **비용**: $15-25 | **시간**: 2-4시간 | **실험 수**: 300회
+
+### 📖 상세 실행 가이드
+
+**[COLAB_EXECUTION_GUIDE.md](./COLAB_EXECUTION_GUIDE.md)** - API 키 발급, 단계별 실행 방법, FAQ 등
+
+---
+
+## 🔗 Repository 정보 (Colab GitHub 검색용)
+
+Colab에서 `파일` → `노트 열기` → `GitHub` 탭에서 아래 정보 입력:
+
+```
+Owner: Kidong8206
+Repository: mindmap_agent
+Branch: claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi
+```
+
+**파일 선택:**
+- Claude 실험: `mindmap-lab/Mindmap_Experiment_Colab.ipynb`
+- GPT-4 실험: `mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb`
+
+---
+
+## 📊 비교 연구 설계
+
+이 프로젝트는 **Claude API vs GPT-4 API** 성능 비교를 위해 설계되었습니다.
+
+| 항목 | Claude | GPT-4 |
+|------|--------|-------|
+| **모델** | claude-sonnet-4-5-20250929 | gpt-4-turbo |
+| **비용** | $5-8 | $15-25 |
+| **시간** | 3-5시간 | 2-4시간 |
+| **API 키** | [console.anthropic.com](https://console.anthropic.com/settings/keys) | [platform.openai.com](https://platform.openai.com/api-keys) |
+
+**비교 방법론**: [COMPARISON_METHODOLOGY.md](./COMPARISON_METHODOLOGY.md)
+
+---
 
 ## 📁 프로젝트 구조
 

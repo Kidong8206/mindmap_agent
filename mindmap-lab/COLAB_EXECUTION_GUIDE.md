@@ -20,22 +20,25 @@
 
 ### Step 1: Colab 노트북 열기
 
-**방법 A: GitHub에서 직접 열기**
+**⭐ 방법 A: 직접 링크 (가장 빠름! 권장)**
 
-1. 아래 링크로 이동:
-   ```
-   https://github.com/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Mindmap_Experiment_Colab.ipynb
-   ```
+아래 URL을 복사해서 브라우저 주소창에 붙여넣기:
 
-2. 노트북 미리보기 상단에서 "Open in Colab" 버튼 클릭
+```
+https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Mindmap_Experiment_Colab.ipynb
+```
 
-**방법 B: Colab에서 GitHub 가져오기**
+→ 바로 Colab 노트북이 열립니다! 🎉
+
+**방법 B: Colab에서 GitHub 검색**
 
 1. https://colab.research.google.com/ 접속
 2. `파일` → `노트 열기` → `GitHub` 탭 선택
-3. Repository 입력: `Kidong8206/mindmap_agent`
-4. Branch 선택: `claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi`
-5. `Mindmap_Experiment_Colab.ipynb` 선택
+3. 아래 정보 입력:
+   - **Owner**: `Kidong8206`
+   - **Repository**: `mindmap_agent`
+   - **Branch**: `claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi`
+4. 파일 선택: `mindmap-lab/Mindmap_Experiment_Colab.ipynb`
 
 ### Step 2: API 키 준비
 
@@ -149,22 +152,25 @@
 
 ### Step 1: Colab 노트북 열기
 
-**방법 A: GitHub에서 직접 열기**
+**⭐ 방법 A: 직접 링크 (가장 빠름! 권장)**
 
-1. 아래 링크로 이동:
-   ```
-   https://github.com/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb
-   ```
+아래 URL을 복사해서 브라우저 주소창에 붙여넣기:
 
-2. 노트북 미리보기 상단에서 "Open in Colab" 버튼 클릭
+```
+https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb
+```
 
-**방법 B: Colab에서 GitHub 가져오기**
+→ 바로 Colab 노트북이 열립니다! 🎉
+
+**방법 B: Colab에서 GitHub 검색**
 
 1. https://colab.research.google.com/ 접속
 2. `파일` → `노트 열기` → `GitHub` 탭 선택
-3. Repository 입력: `Kidong8206/mindmap_agent`
-4. Branch 선택: `claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi`
-5. `Mindmap_Experiment_GPT_Colab.ipynb` 선택
+3. 아래 정보 입력:
+   - **Owner**: `Kidong8206`
+   - **Repository**: `mindmap_agent`
+   - **Branch**: `claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi`
+4. 파일 선택: `mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb`
 
 ### Step 2: API 키 준비
 
