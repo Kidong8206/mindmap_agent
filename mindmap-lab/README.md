@@ -26,6 +26,17 @@ https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mi
 - **API**: OpenAI GPT-4 Turbo
 - **비용**: $15-25 | **시간**: 2-4시간 | **실험 수**: 300회
 
+### 📊 결과 분석 노트북
+
+**Colab에서 바로 열기:**
+```
+https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Analyze_Results_Colab.ipynb
+```
+
+- **기능**: CSV 업로드 → 자동 분석 → 그래프/표 생성 → 다운로드
+- **입력**: `experiments.csv` 또는 `experiments_gpt.csv`
+- **출력**: 6개 파일 (그래프 4개 + 통계표 2개)
+
 ### 📖 상세 실행 가이드
 
 **[COLAB_EXECUTION_GUIDE.md](./COLAB_EXECUTION_GUIDE.md)** - API 키 발급, 단계별 실행 방법, FAQ 등
@@ -45,6 +56,7 @@ Branch: claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi
 **파일 선택:**
 - Claude 실험: `mindmap-lab/Mindmap_Experiment_Colab.ipynb`
 - GPT-4 실험: `mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb`
+- 결과 분석: `mindmap-lab/Analyze_Results_Colab.ipynb`
 
 ---
 
