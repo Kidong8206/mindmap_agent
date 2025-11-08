@@ -1,0 +1,80 @@
+{
+  "overall_anova": {
+    "f_statistic": 0.93,
+    "p_value": 0.44961,
+    "significant": false
+  },
+  "pairwise_comparisons": [
+    {
+      "type_1": "learning_short",
+      "type_2": "learning_medium",
+      "mean_diff": 1.96,
+      "p_value": 0.2185,
+      "significant": false
+    },
+    {
+      "type_1": "learning_short",
+      "type_2": "learning_long",
+      "mean_diff": 2.37,
+      "p_value": 0.0979,
+      "significant": false
+    },
+    {
+      "type_1": "learning_short",
+      "type_2": "brainstorming",
+      "mean_diff": 2.09,
+      "p_value": 0.1485,
+      "significant": false
+    },
+    {
+      "type_1": "learning_short",
+      "type_2": "info_search",
+      "mean_diff": 2.39,
+      "p_value": 0.1213,
+      "significant": false
+    },
+    {
+      "type_1": "learning_medium",
+      "type_2": "learning_long",
+      "mean_diff": 0.41,
+      "p_value": 0.7844,
+      "significant": false
+    },
+    {
+      "type_1": "learning_medium",
+      "type_2": "brainstorming",
+      "mean_diff": 0.13,
+      "p_value": 0.9333,
+      "significant": false
+    },
+    {
+      "type_1": "learning_medium",
+      "type_2": "info_search",
+      "mean_diff": 0.42,
+      "p_value": 0.791,
+      "significant": false
+    },
+    {
+      "type_1": "learning_long",
+      "type_2": "brainstorming",
+      "mean_diff": -0.28,
+      "p_value": 0.8319,
+      "significant": false
+    },
+    {
+      "type_1": "learning_long",
+      "type_2": "info_search",
+      "mean_diff": 0.01,
+      "p_value": 0.9917,
+      "significant": false
+    },
+    {
+      "type_1": "brainstorming",
+      "type_2": "info_search",
+      "mean_diff": 0.3,
+      "p_value": 0.8375,
+      "significant": false
+    }
+  ],
+  "significant_pairs": []
+}

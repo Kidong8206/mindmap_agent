@@ -1,256 +1,102 @@
-{
-  "top_10": [
-    {
-      "rank": 1,
-      "combination": "hybrid_str1d2_radial",
-      "avg_score": 86.58,
-      "std_score": 5.7,
-      "experiments": 20,
-      "avg_nodes": 18.25,
-      "avg_overlap": 84.19,
-      "avg_depth": 3.25
-    },
-    {
-      "rank": 2,
-      "combination": "hybrid_s1d2_hier",
-      "avg_score": 86.26,
-      "std_score": 4.13,
-      "experiments": 20,
-      "avg_nodes": 18.5,
-      "avg_overlap": 88.54,
-      "avg_depth": 3.25
-    },
-    {
-      "rank": 3,
-      "combination": "strict_hierarchical",
-      "avg_score": 85.81,
-      "std_score": 4.93,
-      "experiments": 20,
-      "avg_nodes": 16.4,
-      "avg_overlap": 85.5,
-      "avg_depth": 3.35
-    },
-    {
-      "rank": 4,
-      "combination": "hybrid_d1str2_timeline",
-      "avg_score": 82.74,
-      "std_score": 4.23,
-      "experiments": 20,
-      "avg_nodes": 17.8,
-      "avg_overlap": 82.22,
-      "avg_depth": 3.45
-    },
-    {
-      "rank": 5,
-      "combination": "strict_radial",
-      "avg_score": 82.68,
-      "std_score": 3.0,
-      "experiments": 20,
-      "avg_nodes": 17.35,
-      "avg_overlap": 81.76,
-      "avg_depth": 3.6
-    },
-    {
-      "rank": 6,
-      "combination": "detailed_hierarchical",
-      "avg_score": 80.5,
-      "std_score": 4.8,
-      "experiments": 20,
-      "avg_nodes": 17.2,
-      "avg_overlap": 81.81,
-      "avg_depth": 3.4
-    },
-    {
-      "rank": 7,
-      "combination": "hybrid_s1str2_radial",
-      "avg_score": 80.18,
-      "std_score": 5.43,
-      "experiments": 20,
-      "avg_nodes": 17.55,
-      "avg_overlap": 79.83,
-      "avg_depth": 3.3
-    },
-    {
-      "rank": 8,
-      "combination": "strict_timeline",
-      "avg_score": 79.25,
-      "std_score": 5.71,
-      "experiments": 20,
-      "avg_nodes": 17.4,
-      "avg_overlap": 78.61,
-      "avg_depth": 3.4
-    },
-    {
-      "rank": 9,
-      "combination": "hybrid_d1s2_hier",
-      "avg_score": 77.07,
-      "std_score": 5.02,
-      "experiments": 20,
-      "avg_nodes": 19.35,
-      "avg_overlap": 77.18,
-      "avg_depth": 3.3
-    },
-    {
-      "rank": 10,
-      "combination": "detailed_radial",
-      "avg_score": 75.21,
-      "std_score": 3.91,
-      "experiments": 20,
-      "avg_nodes": 17.35,
-      "avg_overlap": 74.6,
-      "avg_depth": 3.3
-    }
-  ],
-  "all_combinations": {
-    "hybrid_str1d2_radial": {
-      "rank": 1,
-      "combination": "hybrid_str1d2_radial",
-      "avg_score": 86.58,
-      "std_score": 5.7,
-      "experiments": 20,
-      "avg_nodes": 18.25,
-      "avg_overlap": 84.19,
-      "avg_depth": 3.25
-    },
-    "hybrid_s1d2_hier": {
-      "rank": 2,
-      "combination": "hybrid_s1d2_hier",
-      "avg_score": 86.26,
-      "std_score": 4.13,
-      "experiments": 20,
-      "avg_nodes": 18.5,
-      "avg_overlap": 88.54,
-      "avg_depth": 3.25
-    },
-    "strict_hierarchical": {
-      "rank": 3,
-      "combination": "strict_hierarchical",
-      "avg_score": 85.81,
-      "std_score": 4.93,
-      "experiments": 20,
-      "avg_nodes": 16.4,
-      "avg_overlap": 85.5,
-      "avg_depth": 3.35
-    },
-    "hybrid_d1str2_timeline": {
-      "rank": 4,
-      "combination": "hybrid_d1str2_timeline",
-      "avg_score": 82.74,
-      "std_score": 4.23,
-      "experiments": 20,
-      "avg_nodes": 17.8,
-      "avg_overlap": 82.22,
-      "avg_depth": 3.45
-    },
-    "strict_radial": {
-      "rank": 5,
-      "combination": "strict_radial",
-      "avg_score": 82.68,
-      "std_score": 3.0,
-      "experiments": 20,
-      "avg_nodes": 17.35,
-      "avg_overlap": 81.76,
-      "avg_depth": 3.6
-    },
-    "detailed_hierarchical": {
-      "rank": 6,
-      "combination": "detailed_hierarchical",
-      "avg_score": 80.5,
-      "std_score": 4.8,
-      "experiments": 20,
-      "avg_nodes": 17.2,
-      "avg_overlap": 81.81,
-      "avg_depth": 3.4
-    },
-    "hybrid_s1str2_radial": {
-      "rank": 7,
-      "combination": "hybrid_s1str2_radial",
-      "avg_score": 80.18,
-      "std_score": 5.43,
-      "experiments": 20,
-      "avg_nodes": 17.55,
-      "avg_overlap": 79.83,
-      "avg_depth": 3.3
-    },
-    "strict_timeline": {
-      "rank": 8,
-      "combination": "strict_timeline",
-      "avg_score": 79.25,
-      "std_score": 5.71,
-      "experiments": 20,
-      "avg_nodes": 17.4,
-      "avg_overlap": 78.61,
-      "avg_depth": 3.4
-    },
-    "hybrid_d1s2_hier": {
-      "rank": 9,
-      "combination": "hybrid_d1s2_hier",
-      "avg_score": 77.07,
-      "std_score": 5.02,
-      "experiments": 20,
-      "avg_nodes": 19.35,
-      "avg_overlap": 77.18,
-      "avg_depth": 3.3
-    },
-    "detailed_radial": {
-      "rank": 10,
-      "combination": "detailed_radial",
-      "avg_score": 75.21,
-      "std_score": 3.91,
-      "experiments": 20,
-      "avg_nodes": 17.35,
-      "avg_overlap": 74.6,
-      "avg_depth": 3.3
-    },
-    "detailed_timeline": {
-      "rank": 11,
-      "combination": "detailed_timeline",
-      "avg_score": 74.44,
-      "std_score": 6.44,
-      "experiments": 20,
-      "avg_nodes": 18.25,
-      "avg_overlap": 74.97,
-      "avg_depth": 3.45
-    },
-    "hybrid_str1s2_timeline": {
-      "rank": 12,
-      "combination": "hybrid_str1s2_timeline",
-      "avg_score": 73.62,
-      "std_score": 4.31,
-      "experiments": 20,
-      "avg_nodes": 19.85,
-      "avg_overlap": 73.9,
-      "avg_depth": 3.2
-    },
-    "simple_hierarchical": {
-      "rank": 13,
-      "combination": "simple_hierarchical",
-      "avg_score": 71.06,
-      "std_score": 5.6,
-      "experiments": 20,
-      "avg_nodes": 17.25,
-      "avg_overlap": 71.96,
-      "avg_depth": 3.15
-    },
-    "simple_timeline": {
-      "rank": 14,
-      "combination": "simple_timeline",
-      "avg_score": 68.75,
-      "std_score": 5.99,
-      "experiments": 20,
-      "avg_nodes": 18.1,
-      "avg_overlap": 67.84,
-      "avg_depth": 3.1
-    },
-    "simple_radial": {
-      "rank": 15,
-      "combination": "simple_radial",
-      "avg_score": 67.59,
-      "std_score": 5.57,
-      "experiments": 20,
-      "avg_nodes": 17.05,
-      "avg_overlap": 68.82,
-      "avg_depth": 2.9
-    }
+[
+  {
+    "rank": 1,
+    "combination_id": "comb_13",
+    "combination_name": "hybrid_str1d2_radial",
+    "avg_score": 85.23,
+    "std_score": 5.09,
+    "avg_node_count": 18.6,
+    "avg_keyword_overlap": 0.813,
+    "avg_depth": 3.8
+  },
+  {
+    "rank": 2,
+    "combination_id": "comb_14",
+    "combination_name": "hybrid_d1str2_timeline",
+    "avg_score": 84.18,
+    "std_score": 5.3,
+    "avg_node_count": 19.7,
+    "avg_keyword_overlap": 0.78,
+    "avg_depth": 4.0
+  },
+  {
+    "rank": 3,
+    "combination_id": "comb_10",
+    "combination_name": "hybrid_s1d2_hier",
+    "avg_score": 82.82,
+    "std_score": 7.12,
+    "avg_node_count": 17.4,
+    "avg_keyword_overlap": 0.771,
+    "avg_depth": 4.2
+  },
+  {
+    "rank": 4,
+    "combination_id": "comb_12",
+    "combination_name": "hybrid_d1s2_radial",
+    "avg_score": 82.72,
+    "std_score": 6.54,
+    "avg_node_count": 17.7,
+    "avg_keyword_overlap": 0.782,
+    "avg_depth": 3.9
+  },
+  {
+    "rank": 5,
+    "combination_id": "comb_07",
+    "combination_name": "strict_hierarchical",
+    "avg_score": 82.56,
+    "std_score": 4.74,
+    "avg_node_count": 19.8,
+    "avg_keyword_overlap": 0.796,
+    "avg_depth": 3.9
+  },
+  {
+    "rank": 6,
+    "combination_id": "comb_11",
+    "combination_name": "hybrid_s1d2_force",
+    "avg_score": 82.22,
+    "std_score": 4.8,
+    "avg_node_count": 21.4,
+    "avg_keyword_overlap": 0.787,
+    "avg_depth": 3.8
+  },
+  {
+    "rank": 7,
+    "combination_id": "comb_08",
+    "combination_name": "strict_force",
+    "avg_score": 81.51,
+    "std_score": 7.05,
+    "avg_node_count": 20.4,
+    "avg_keyword_overlap": 0.784,
+    "avg_depth": 3.8
+  },
+  {
+    "rank": 8,
+    "combination_id": "comb_15",
+    "combination_name": "hybrid_all_hier",
+    "avg_score": 79.76,
+    "std_score": 7.62,
+    "avg_node_count": 16.2,
+    "avg_keyword_overlap": 0.756,
+    "avg_depth": 3.9
+  },
+  {
+    "rank": 9,
+    "combination_id": "comb_09",
+    "combination_name": "strict_timeline",
+    "avg_score": 79.33,
+    "std_score": 5.37,
+    "avg_node_count": 18.8,
+    "avg_keyword_overlap": 0.753,
+    "avg_depth": 3.8
+  },
+  {
+    "rank": 10,
+    "combination_id": "comb_06",
+    "combination_name": "detailed_radial",
+    "avg_score": 77.11,
+    "std_score": 6.2,
+    "avg_node_count": 17.7,
+    "avg_keyword_overlap": 0.739,
+    "avg_depth": 3.7
   }
-}
+]

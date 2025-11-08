@@ -1,0 +1,76 @@
+{
+  "failed_experiments": {
+    "total_count": 8,
+    "by_reason": {
+      "parse_error": 3,
+      "validation_error": 2,
+      "timeout": 2,
+      "api_error": 1
+    },
+    "by_combination": {
+      "comb_02": 2,
+      "comb_03": 1,
+      "comb_04": 2,
+      "comb_06": 1,
+      "comb_12": 2
+    },
+    "examples": [
+      {
+        "combination_id": "comb_02",
+        "conversation_id": "conv_000",
+        "failure_reason": "validation_error"
+      },
+      {
+        "combination_id": "comb_02",
+        "conversation_id": "conv_004",
+        "failure_reason": "api_error"
+      },
+      {
+        "combination_id": "comb_04",
+        "conversation_id": "conv_005",
+        "failure_reason": "parse_error"
+      },
+      {
+        "combination_id": "comb_12",
+        "conversation_id": "conv_005",
+        "failure_reason": "parse_error"
+      },
+      {
+        "combination_id": "comb_03",
+        "conversation_id": "conv_008",
+        "failure_reason": "parse_error"
+      }
+    ]
+  },
+  "low_performance_combinations": [
+    {
+      "combination_id": "comb_02",
+      "mean_score": 67.75,
+      "issue": "기본 알고리즘 조합으로 복잡한 대화 처리 미흡"
+    },
+    {
+      "combination_id": "comb_03",
+      "mean_score": 71.23,
+      "issue": "기본 알고리즘 조합으로 복잡한 대화 처리 미흡"
+    },
+    {
+      "combination_id": "comb_01",
+      "mean_score": 72.08,
+      "issue": "기본 알고리즘 조합으로 복잡한 대화 처리 미흡"
+    }
+  ],
+  "type_specific_failures": [
+    {
+      "conversation_type": "brainstorming",
+      "layout": "timeline",
+      "issue": "시간 순서가 중요하지 않은 브레인스토밍에 부적합",
+      "avg_score": 81.93
+    },
+    {
+      "conversation_type": "learning_long",
+      "layout": "radial",
+      "issue": "긴 대화에서 노드 밀집으로 가독성 저하",
+      "avg_score": 78.21
+    }
+  ]
+}

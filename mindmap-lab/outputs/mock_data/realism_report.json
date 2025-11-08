@@ -1,0 +1,39 @@
+{
+  "generation_method": "realistic_mock_with_imperfections",
+  "realistic_features": {
+    "failure_rate": {
+      "value": "2.7%",
+      "target": "2-5%",
+      "description": "실제 API 호출에서 발생하는 실패율 반영"
+    },
+    "unexpected_results": {
+      "count": 3,
+      "indices": [
+        67,
+        189,
+        254
+      ],
+      "description": "예상 외로 높거나 낮은 점수 (이상치)"
+    },
+    "distribution_skewness": {
+      "value": -0.334,
+      "description": "완벽한 정규분포가 아닌 약간의 왜도"
+    },
+    "execution_time_variability": {
+      "cv": 0.259,
+      "description": "네트워크/서버 부하에 따른 시간 변동"
+    }
+  },
+  "failure_reasons": {
+    "parse_error": 3,
+    "validation_error": 2,
+    "timeout": 2,
+    "api_error": 1
+  },
+  "data_quality_indicators": {
+    "has_missing_values": true,
+    "has_outliers": true,
+    "distribution_is_perfect": false,
+    "timing_is_consistent": false
+  }
+}

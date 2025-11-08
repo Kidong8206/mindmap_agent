@@ -2,67 +2,57 @@
   "session_classification": {
     "v1_simple": {
       "mean": 0.32,
-      "std": 0.08,
-      "description": "단순 규칙 기반"
+      "std": 0.08
     },
     "v2_detailed": {
       "mean": 1.24,
-      "std": 0.31,
-      "description": "상세 분석"
+      "std": 0.31
     },
     "v3_strict": {
       "mean": 3.76,
-      "std": 0.89,
-      "description": "엄격한 검증"
+      "std": 0.89
     }
   },
   "context_extraction": {
     "d1_basic": {
       "mean": 0.58,
-      "std": 0.15,
-      "description": "기본 맥락 추출"
+      "std": 0.15
     },
     "d2_detailed": {
       "mean": 2.13,
-      "std": 0.52,
-      "description": "상세 맥락 분석"
+      "std": 0.52
     }
   },
   "keyword_extraction": {
-    "default": {
+    "tfidf": {
       "mean": 1.87,
-      "std": 0.43,
-      "description": "TF-IDF 기반 추출"
+      "std": 0.43
     }
   },
   "layout_generation": {
     "force": {
       "mean": 4.23,
-      "std": 1.12,
-      "description": "Force-directed layout"
+      "std": 1.12
     },
     "hierarchical": {
       "mean": 2.54,
-      "std": 0.67,
-      "description": "계층형 레이아웃"
+      "std": 0.67
     },
     "radial": {
       "mean": 3.18,
-      "std": 0.84,
-      "description": "방사형 레이아웃"
+      "std": 0.84
     },
     "timeline": {
       "mean": 2.91,
-      "std": 0.73,
-      "description": "타임라인 레이아웃"
+      "std": 0.73
     }
   },
   "total_pipeline": {
-    "mean": 8.12,
-    "median": 7.84,
-    "min": 3.21,
-    "max": 15.67,
-    "std": 2.34,
-    "description": "전체 파이프라인 평균 실행 시간"
+    "mean": 9.29,
+    "median": 9.42,
+    "min": 3.76,
+    "max": 17.65,
+    "std": 2.41,
+    "total_hours": 0.75
   }
 }

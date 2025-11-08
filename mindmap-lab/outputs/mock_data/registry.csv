@@ -1,301 +1,301 @@
-﻿timestamp,conversation_id,conversation_type,combination_id,combination_name,stage1,stage2,stage3,stage4,node_count,node_score,keyword_overlap,max_depth,depth_score,total_score,elapsed_time,status
-2025-11-08T00:01:23.199503,conv_001,learning_short,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,17,100,77.94,3,100,74.48,28.12,success
-2025-11-08T00:02:23.199503,conv_001,learning_short,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,22,100,72.28,2,100,69.4,44.4,success
-2025-11-08T00:03:23.199503,conv_001,learning_short,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,20,100,63.35,2,100,67.65,31.08,success
-2025-11-08T00:04:23.199503,conv_001,learning_short,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,21,100,65.1,4,100,67.94,27.79,success
-2025-11-08T00:05:23.199503,conv_001,learning_short,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,12,100,72.81,4,100,73.46,28.99,success
-2025-11-08T00:06:23.199503,conv_001,learning_short,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,19,100,79.83,4,100,87.8,28.41,success
-2025-11-08T00:07:23.199503,conv_001,learning_short,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,16,100,87.09,3,100,84.0,27.44,success
-2025-11-08T00:08:23.199503,conv_001,learning_short,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,17,100,86.91,3,100,80.33,38.25,success
-2025-11-08T00:09:23.199503,conv_001,learning_short,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,10,100,81.8,2,100,81.04,44.39,success
-2025-11-08T00:10:23.199503,conv_001,learning_short,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,21,100,93.36,2,100,86.09,28.92,success
-2025-11-08T00:11:23.199503,conv_001,learning_short,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,16,100,73.74,3,100,75.42,41.57,success
-2025-11-08T00:12:23.199503,conv_001,learning_short,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,14,100,72.88,2,100,72.27,41.04,success
-2025-11-08T00:13:23.199503,conv_001,learning_short,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,20,100,72.64,4,100,80.62,39.14,success
-2025-11-08T00:14:23.199503,conv_001,learning_short,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,21,100,79.11,3,100,86.47,27.32,success
-2025-11-08T00:15:23.199503,conv_001,learning_short,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,21,100,73.1,2,100,75.66,31.22,success
-2025-11-08T00:16:23.199503,conv_002,learning_short,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,14,100,80.04,4,100,77.9,34.44,success
-2025-11-08T00:17:23.199503,conv_002,learning_short,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,15,100,73.45,3,100,69.81,40.42,success
-2025-11-08T00:18:23.199503,conv_002,learning_short,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,14,100,85.6,2,100,86.86,27.16,success
-2025-11-08T00:19:23.199503,conv_002,learning_short,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,16,100,78.41,3,100,81.44,43.15,success
-2025-11-08T00:20:23.199503,conv_002,learning_short,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,12,100,79.18,3,100,75.33,26.54,success
-2025-11-08T00:21:23.199503,conv_002,learning_short,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,15,100,77.06,4,100,70.96,37.67,success
-2025-11-08T00:22:23.199503,conv_002,learning_short,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,19,100,82.75,4,100,88.29,35.79,success
-2025-11-08T00:23:23.199503,conv_002,learning_short,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,16,100,75.16,3,100,79.49,41.36,success
-2025-11-08T00:24:23.199503,conv_002,learning_short,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,19,100,63.02,2,100,66.72,31.75,success
-2025-11-08T00:25:23.199503,conv_002,learning_short,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,19,100,84.51,4,100,84.19,32.27,success
-2025-11-08T00:26:23.199503,conv_002,learning_short,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,11,100,72.88,3,100,75.91,25.74,success
-2025-11-08T00:27:23.199503,conv_002,learning_short,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,27,100,72.19,3,100,79.3,43.17,success
-2025-11-08T00:28:23.199503,conv_002,learning_short,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,16,100,80.96,5,100,81.13,29.84,success
-2025-11-08T00:29:23.199503,conv_002,learning_short,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,21,100,83.11,4,100,87.71,32.36,success
-2025-11-08T00:30:23.199503,conv_002,learning_short,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,23,100,81.61,2,100,81.03,41.71,success
-2025-11-08T00:31:23.199503,conv_003,learning_short,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,15,100,60.89,3,100,67.05,38.55,success
-2025-11-08T00:32:23.199503,conv_003,learning_short,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,16,100,64.32,4,100,68.05,28.49,success
-2025-11-08T00:33:23.199503,conv_003,learning_short,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,24,100,71.12,2,100,65.4,31.82,success
-2025-11-08T00:34:23.199503,conv_003,learning_short,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,20,100,81.75,4,100,79.22,36.1,success
-2025-11-08T00:35:23.199503,conv_003,learning_short,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,18,100,64.27,4,100,69.96,43.01,success
-2025-11-08T00:36:23.199503,conv_003,learning_short,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,22,100,65.76,4,100,67.8,42.94,success
-2025-11-08T00:37:23.199503,conv_003,learning_short,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,19,100,90.76,2,100,88.25,28.23,success
-2025-11-08T00:38:23.199503,conv_003,learning_short,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,21,100,75.87,2,100,84.13,38.27,success
-2025-11-08T00:39:23.199503,conv_003,learning_short,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,19,100,92.04,3,100,89.33,39.24,success
-2025-11-08T00:40:23.199503,conv_003,learning_short,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,13,100,85.25,4,100,81.24,41.98,success
-2025-11-08T00:41:23.199503,conv_003,learning_short,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,25,100,73.6,3,100,80.11,30.3,success
-2025-11-08T00:42:23.199503,conv_003,learning_short,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,17,100,85.58,4,100,83.39,35.05,success
-2025-11-08T00:43:23.199503,conv_003,learning_short,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,28,100,77.64,4,100,82.68,30.62,success
-2025-11-08T00:44:23.199503,conv_003,learning_short,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,17,100,76.9,5,100,82.21,44.08,success
-2025-11-08T00:45:23.199503,conv_003,learning_short,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,20,100,65.82,5,100,72.88,33.56,success
-2025-11-08T00:46:23.199503,conv_004,learning_medium,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,21,100,68.14,4,100,69.74,31.34,success
-2025-11-08T00:47:23.199503,conv_004,learning_medium,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,13,100,75.1,4,100,69.07,36.4,success
-2025-11-08T00:48:23.199503,conv_004,learning_medium,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,14,100,78.13,2,100,71.15,35.37,success
-2025-11-08T00:49:23.199503,conv_004,learning_medium,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,20,100,86.05,4,100,82.79,32.19,success
-2025-11-08T00:50:23.199503,conv_004,learning_medium,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,15,100,87.64,4,100,82.53,43.26,success
-2025-11-08T00:51:23.199503,conv_004,learning_medium,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,30,100,82.2,4,100,77.58,39.04,success
-2025-11-08T00:52:23.199503,conv_004,learning_medium,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,18,100,85.3,3,100,88.16,26.88,success
-2025-11-08T00:53:23.199503,conv_004,learning_medium,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,18,100,80.02,3,100,80.57,30.73,success
-2025-11-08T00:54:23.199503,conv_004,learning_medium,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,18,100,70.72,4,100,77.93,32.2,success
-2025-11-08T00:55:23.199503,conv_004,learning_medium,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,13,100,89.93,3,100,85.32,37.46,success
-2025-11-08T00:56:23.199503,conv_004,learning_medium,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,25,100,90.36,4,100,87.95,44.52,success
-2025-11-08T00:57:23.199503,conv_004,learning_medium,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,18,100,72.94,3,100,68.87,33.78,success
-2025-11-08T00:58:23.199503,conv_004,learning_medium,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,24,100,74.9,2,100,80.14,30.0,success
-2025-11-08T00:59:23.199503,conv_004,learning_medium,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,19,100,93.74,3,100,90.83,44.1,success
-2025-11-08T01:00:23.199503,conv_004,learning_medium,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,24,100,77.58,3,100,75.89,29.95,success
-2025-11-08T01:01:23.199503,conv_005,learning_medium,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,15,100,70.73,2,100,78.33,25.92,success
-2025-11-08T01:02:23.199503,conv_005,learning_medium,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,25,100,61.44,3,100,66.81,34.47,success
-2025-11-08T01:03:23.199503,conv_005,learning_medium,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,13,100,67.34,4,100,68.74,37.7,success
-2025-11-08T01:04:23.199503,conv_005,learning_medium,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,16,100,82.38,3,100,80.36,42.13,success
-2025-11-08T01:05:23.199503,conv_005,learning_medium,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,19,100,66.81,4,100,73.09,25.53,success
-2025-11-08T01:06:23.199503,conv_005,learning_medium,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,18,100,79.42,3,100,78.24,37.87,success
-2025-11-08T01:07:23.199503,conv_005,learning_medium,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,10,100,100.0,3,100,97.67,44.22,success
-2025-11-08T01:08:23.199503,conv_005,learning_medium,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,18,100,77.65,4,100,80.57,25.47,success
-2025-11-08T01:09:23.199503,conv_005,learning_medium,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,21,100,71.17,4,100,77.05,37.58,success
-2025-11-08T01:10:23.199503,conv_005,learning_medium,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,20,100,92.08,3,100,86.81,28.55,success
-2025-11-08T01:11:23.199503,conv_005,learning_medium,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,20,100,87.56,3,100,79.74,32.44,success
-2025-11-08T01:12:23.199503,conv_005,learning_medium,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,22,100,82.17,4,100,75.65,33.58,success
-2025-11-08T01:13:23.199503,conv_005,learning_medium,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,21,100,81.13,5,100,88.13,35.11,success
-2025-11-08T01:14:23.199503,conv_005,learning_medium,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,21,100,85.66,3,100,79.38,25.22,success
-2025-11-08T01:15:23.199503,conv_005,learning_medium,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,82.44,3,100,75.62,37.64,success
-2025-11-08T01:16:23.199503,conv_006,learning_medium,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,16,100,60.88,4,100,63.04,40.05,success
-2025-11-08T01:17:23.199503,conv_006,learning_medium,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,20,100,65.31,3,100,71.12,26.15,success
-2025-11-08T01:18:23.199503,conv_006,learning_medium,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,25,100,64.17,3,100,59.55,27.34,success
-2025-11-08T01:19:23.199503,conv_006,learning_medium,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,15,100,85.03,2,100,83.06,26.68,success
-2025-11-08T01:20:23.199503,conv_006,learning_medium,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,18,100,80.72,4,100,75.83,26.63,success
-2025-11-08T01:21:23.199503,conv_006,learning_medium,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,12,100,72.0,5,100,67.76,44.72,success
-2025-11-08T01:22:23.199503,conv_006,learning_medium,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,23,100,76.71,4,100,83.68,36.17,success
-2025-11-08T01:23:23.199503,conv_006,learning_medium,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,17,100,80.5,3,100,87.29,25.23,success
-2025-11-08T01:24:23.199503,conv_006,learning_medium,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,17,100,70.75,2,100,76.59,37.98,success
-2025-11-08T01:25:23.199503,conv_006,learning_medium,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,24,100,95.69,3,100,87.6,30.71,success
-2025-11-08T01:26:23.199503,conv_006,learning_medium,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,19,100,81.17,2,100,74.28,44.4,success
-2025-11-08T01:27:23.199503,conv_006,learning_medium,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,18,100,73.29,3,100,80.12,44.39,success
-2025-11-08T01:28:23.199503,conv_006,learning_medium,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,19,100,99.11,3,100,95.38,37.55,success
-2025-11-08T01:29:23.199503,conv_006,learning_medium,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,18,100,78.51,3,100,86.36,44.01,success
-2025-11-08T01:30:23.199503,conv_006,learning_medium,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,21,100,75.21,3,100,73.45,28.76,success
-2025-11-08T01:31:23.199503,conv_007,learning_medium,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,15,100,62.41,2,100,61.38,44.49,success
-2025-11-08T01:32:23.199503,conv_007,learning_medium,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,19,100,62.1,4,100,58.44,28.25,success
-2025-11-08T01:33:23.199503,conv_007,learning_medium,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,25,100,68.89,4,100,63.4,25.9,success
-2025-11-08T01:34:23.199503,conv_007,learning_medium,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,16,100,85.64,5,100,80.63,28.01,success
-2025-11-08T01:35:23.199503,conv_007,learning_medium,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,23,100,75.96,4,100,69.43,41.77,success
-2025-11-08T01:36:23.199503,conv_007,learning_medium,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,14,100,59.9,2,100,62.74,42.29,success
-2025-11-08T01:37:23.199503,conv_007,learning_medium,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,18,100,91.71,5,100,87.03,41.99,success
-2025-11-08T01:38:23.199503,conv_007,learning_medium,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,11,100,75.4,5,100,81.43,37.12,success
-2025-11-08T01:39:23.199503,conv_007,learning_medium,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,13,100,85.53,3,100,83.56,27.27,success
-2025-11-08T01:40:23.199503,conv_007,learning_medium,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,26,100,90.91,3,100,86.21,42.04,success
-2025-11-08T01:41:23.199503,conv_007,learning_medium,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,25,100,92.81,3,100,86.3,27.68,success
-2025-11-08T01:42:23.199503,conv_007,learning_medium,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,21,100,81.48,2,100,86.45,25.29,success
-2025-11-08T01:43:23.199503,conv_007,learning_medium,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,10,100,87.37,3,100,89.29,43.08,success
-2025-11-08T01:44:23.199503,conv_007,learning_medium,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,10,100,87.71,3,100,83.0,37.44,success
-2025-11-08T01:45:23.199503,conv_007,learning_medium,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,64.95,5,100,65.48,34.85,success
-2025-11-08T01:46:23.199503,conv_008,learning_long,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,12,100,73.58,2,100,77.61,27.58,success
-2025-11-08T01:47:23.199503,conv_008,learning_long,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,14,100,65.39,3,100,69.83,42.94,success
-2025-11-08T01:48:23.199503,conv_008,learning_long,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,16,100,75.01,2,100,80.28,25.82,success
-2025-11-08T01:49:23.199503,conv_008,learning_long,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,14,100,73.29,2,100,78.35,27.41,success
-2025-11-08T01:50:23.199503,conv_008,learning_long,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,17,100,68.91,3,100,70.83,38.81,success
-2025-11-08T01:51:23.199503,conv_008,learning_long,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,18,100,76.84,5,100,71.5,26.22,success
-2025-11-08T01:52:23.199503,conv_008,learning_long,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,15,100,95.79,2,100,91.26,29.19,success
-2025-11-08T01:53:23.199503,conv_008,learning_long,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,10,100,83.56,3,100,81.62,34.25,success
-2025-11-08T01:54:23.199503,conv_008,learning_long,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,14,100,90.92,3,100,84.26,35.64,success
-2025-11-08T01:55:23.199503,conv_008,learning_long,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,14,100,84.91,3,100,84.36,30.38,success
-2025-11-08T01:56:23.199503,conv_008,learning_long,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,17,100,72.39,3,100,75.07,31.55,success
-2025-11-08T01:57:23.199503,conv_008,learning_long,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,21,100,92.49,3,100,87.44,26.74,success
-2025-11-08T01:58:23.199503,conv_008,learning_long,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,22,100,100.0,3,100,95.87,27.55,success
-2025-11-08T01:59:23.199503,conv_008,learning_long,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,12,100,79.89,3,100,77.62,32.12,success
-2025-11-08T02:00:23.199503,conv_008,learning_long,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,18,100,70.24,2,100,74.14,28.06,success
-2025-11-08T02:01:23.199503,conv_009,learning_long,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,16,100,64.44,3,100,68.75,28.47,success
-2025-11-08T02:02:23.199503,conv_009,learning_long,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,20,100,60.84,2,100,55.49,32.96,success
-2025-11-08T02:03:23.199503,conv_009,learning_long,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,21,100,62.7,4,100,67.12,43.59,success
-2025-11-08T02:04:23.199503,conv_009,learning_long,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,24,100,87.2,4,100,91.22,28.74,success
-2025-11-08T02:05:23.199503,conv_009,learning_long,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,10,100,74.3,3,100,74.18,27.3,success
-2025-11-08T02:06:23.199503,conv_009,learning_long,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,21,100,68.47,2,100,67.38,34.62,success
-2025-11-08T02:07:23.199503,conv_009,learning_long,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,18,100,81.0,2,100,83.74,26.27,success
-2025-11-08T02:08:23.199503,conv_009,learning_long,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,21,100,82.89,4,100,79.99,36.91,success
-2025-11-08T02:09:23.199503,conv_009,learning_long,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,14,100,65.6,5,100,67.64,41.61,success
-2025-11-08T02:10:23.199503,conv_009,learning_long,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,18,100,80.38,2,100,85.85,39.82,success
-2025-11-08T02:11:23.199503,conv_009,learning_long,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,19,100,75.94,4,100,81.84,29.03,success
-2025-11-08T02:12:23.199503,conv_009,learning_long,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,16,100,82.28,4,100,77.41,35.46,success
-2025-11-08T02:13:23.199503,conv_009,learning_long,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,16,100,86.46,4,100,88.36,33.78,success
-2025-11-08T02:14:23.199503,conv_009,learning_long,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,10,100,75.49,4,100,78.62,35.05,success
-2025-11-08T02:15:23.199503,conv_009,learning_long,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,73.88,3,100,75.63,43.13,success
-2025-11-08T02:16:23.199503,conv_010,learning_long,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,19,100,73.52,4,100,67.58,31.7,success
-2025-11-08T02:17:23.199503,conv_010,learning_long,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,16,100,71.37,3,100,69.69,42.88,success
-2025-11-08T02:18:23.199503,conv_010,learning_long,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,19,100,65.02,3,100,67.56,39.88,success
-2025-11-08T02:19:23.199503,conv_010,learning_long,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,16,100,85.63,4,100,81.36,31.84,success
-2025-11-08T02:20:23.199503,conv_010,learning_long,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,16,100,78.52,3,100,84.43,39.45,success
-2025-11-08T02:21:23.199503,conv_010,learning_long,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,23,100,82.43,3,100,79.35,30.04,success
-2025-11-08T02:22:23.199503,conv_010,learning_long,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,15,100,88.38,3,100,81.71,33.02,success
-2025-11-08T02:23:23.199503,conv_010,learning_long,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,17,100,80.29,3,100,86.27,35.12,success
-2025-11-08T02:24:23.199503,conv_010,learning_long,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,18,100,84.86,5,100,78.99,36.3,success
-2025-11-08T02:25:23.199503,conv_010,learning_long,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,18,100,91.03,2,100,87.41,36.53,success
-2025-11-08T02:26:23.199503,conv_010,learning_long,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,25,100,72.57,5,100,69.29,43.51,success
-2025-11-08T02:27:23.199503,conv_010,learning_long,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,17,100,81.23,4,100,74.05,27.49,success
-2025-11-08T02:28:23.199503,conv_010,learning_long,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,20,100,94.74,2,100,96.69,31.7,success
-2025-11-08T02:29:23.199503,conv_010,learning_long,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,11,100,77.51,5,100,76.94,31.93,success
-2025-11-08T02:30:23.199503,conv_010,learning_long,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,14,100,79.58,3,100,80.35,34.05,success
-2025-11-08T02:31:23.199503,conv_011,brainstorming,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,16,100,70.75,3,100,70.77,43.3,success
-2025-11-08T02:32:23.199503,conv_011,brainstorming,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,10,100,75.34,2,100,73.4,38.27,success
-2025-11-08T02:33:23.199503,conv_011,brainstorming,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,13,100,62.96,5,100,68.66,35.04,success
-2025-11-08T02:34:23.199503,conv_011,brainstorming,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,18,100,81.49,3,100,77.61,42.96,success
-2025-11-08T02:35:23.199503,conv_011,brainstorming,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,15,100,68.17,3,100,75.13,36.3,success
-2025-11-08T02:36:23.199503,conv_011,brainstorming,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,10,100,80.97,3,100,81.94,36.19,success
-2025-11-08T02:37:23.199503,conv_011,brainstorming,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,16,100,91.46,5,100,85.29,32.47,success
-2025-11-08T02:38:23.199503,conv_011,brainstorming,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,12,100,85.58,2,100,87.17,28.12,success
-2025-11-08T02:39:23.199503,conv_011,brainstorming,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,23,100,76.67,3,100,84.68,29.62,success
-2025-11-08T02:40:23.199503,conv_011,brainstorming,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,17,100,80.0,4,100,85.49,29.76,success
-2025-11-08T02:41:23.199503,conv_011,brainstorming,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,16,100,78.12,4,100,74.8,41.6,success
-2025-11-08T02:42:23.199503,conv_011,brainstorming,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,13,100,82.09,3,100,87.23,42.93,success
-2025-11-08T02:43:23.199503,conv_011,brainstorming,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,12,100,84.28,4,100,85.63,41.35,success
-2025-11-08T02:44:23.199503,conv_011,brainstorming,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,14,100,73.97,3,100,75.79,30.36,success
-2025-11-08T02:45:23.199503,conv_011,brainstorming,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,25,100,68.3,3,100,67.6,30.89,success
-2025-11-08T02:46:23.199503,conv_012,brainstorming,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,17,100,81.47,3,100,76.86,25.45,success
-2025-11-08T02:47:23.199503,conv_012,brainstorming,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,11,100,71.4,3,100,69.54,27.79,success
-2025-11-08T02:48:23.199503,conv_012,brainstorming,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,18,100,60.66,2,100,63.56,43.29,success
-2025-11-08T02:49:23.199503,conv_012,brainstorming,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,14,100,78.27,3,100,81.98,38.03,success
-2025-11-08T02:50:23.199503,conv_012,brainstorming,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,20,100,68.26,2,100,75.65,43.0,success
-2025-11-08T02:51:23.199503,conv_012,brainstorming,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,21,100,77.81,4,100,76.28,28.51,success
-2025-11-08T02:52:23.199503,conv_012,brainstorming,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,21,100,84.19,3,100,86.21,25.94,success
-2025-11-08T02:53:23.199503,conv_012,brainstorming,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,15,100,78.45,4,100,85.59,29.91,success
-2025-11-08T02:54:23.199503,conv_012,brainstorming,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,14,100,70.29,4,100,72.38,30.94,success
-2025-11-08T02:55:23.199503,conv_012,brainstorming,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,28,100,82.88,5,100,80.25,39.65,success
-2025-11-08T02:56:23.199503,conv_012,brainstorming,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,11,100,71.95,3,100,79.04,36.94,success
-2025-11-08T02:57:23.199503,conv_012,brainstorming,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,15,100,78.08,2,100,84.75,39.56,success
-2025-11-08T02:58:23.199503,conv_012,brainstorming,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,17,100,92.65,3,100,93.88,41.38,success
-2025-11-08T02:59:23.199503,conv_012,brainstorming,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,21,100,81.28,3,100,85.16,32.22,success
-2025-11-08T03:00:23.199503,conv_012,brainstorming,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,67.97,4,100,67.4,39.64,success
-2025-11-08T03:01:23.199503,conv_013,brainstorming,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,22,100,77.68,4,100,74.8,29.99,success
-2025-11-08T03:02:23.199503,conv_013,brainstorming,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,17,100,66.26,5,100,60.37,25.79,success
-2025-11-08T03:03:23.199503,conv_013,brainstorming,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,18,100,67.54,3,100,72.15,43.31,success
-2025-11-08T03:04:23.199503,conv_013,brainstorming,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,17,100,91.07,5,100,83.23,34.48,success
-2025-11-08T03:05:23.199503,conv_013,brainstorming,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,18,100,75.31,4,100,78.14,25.74,success
-2025-11-08T03:06:23.199503,conv_013,brainstorming,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,20,100,62.82,2,100,67.97,38.93,success
-2025-11-08T03:07:23.199503,conv_013,brainstorming,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,14,100,85.17,3,100,93.28,35.79,success
-2025-11-08T03:08:23.199503,conv_013,brainstorming,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,22,100,81.75,4,100,79.75,37.32,success
-2025-11-08T03:09:23.199503,conv_013,brainstorming,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,22,100,87.47,4,100,80.41,44.96,success
-2025-11-08T03:10:23.199503,conv_013,brainstorming,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,15,100,89.33,3,100,91.12,37.55,success
-2025-11-08T03:11:23.199503,conv_013,brainstorming,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,23,100,72.61,4,100,73.77,29.78,success
-2025-11-08T03:12:23.199503,conv_013,brainstorming,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,14,100,74.2,3,100,77.5,29.67,success
-2025-11-08T03:13:23.199503,conv_013,brainstorming,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,18,100,81.89,4,100,83.83,29.37,success
-2025-11-08T03:14:23.199503,conv_013,brainstorming,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,14,100,87.33,5,100,81.17,34.35,success
-2025-11-08T03:15:23.199503,conv_013,brainstorming,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,19,100,75.1,3,100,68.39,43.85,success
-2025-11-08T03:16:23.199503,conv_014,brainstorming,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,24,100,78.03,3,100,77.84,28.53,success
-2025-11-08T03:17:23.199503,conv_014,brainstorming,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,15,100,68.51,3,100,64.88,26.16,success
-2025-11-08T03:18:23.199503,conv_014,brainstorming,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,13,100,71.65,4,100,68.13,28.08,success
-2025-11-08T03:19:23.199503,conv_014,brainstorming,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,20,100,73.92,3,100,78.24,36.86,success
-2025-11-08T03:20:23.199503,conv_014,brainstorming,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,18,100,79.37,3,100,73.8,27.59,success
-2025-11-08T03:21:23.199503,conv_014,brainstorming,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,19,100,78.8,3,100,76.43,26.74,success
-2025-11-08T03:22:23.199503,conv_014,brainstorming,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,12,100,74.5,4,100,78.26,34.92,success
-2025-11-08T03:23:23.199503,conv_014,brainstorming,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,18,100,86.06,3,100,80.41,34.61,success
-2025-11-08T03:24:23.199503,conv_014,brainstorming,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,19,100,83.41,4,100,86.03,36.31,success
-2025-11-08T03:25:23.199503,conv_014,brainstorming,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,16,100,93.15,4,100,87.92,42.01,success
-2025-11-08T03:26:23.199503,conv_014,brainstorming,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,20,100,83.29,4,100,78.03,38.6,success
-2025-11-08T03:27:23.199503,conv_014,brainstorming,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,20,100,80.04,4,100,85.91,42.44,success
-2025-11-08T03:28:23.199503,conv_014,brainstorming,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,14,100,86.15,2,100,82.15,41.36,success
-2025-11-08T03:29:23.199503,conv_014,brainstorming,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,23,100,74.03,3,100,82.14,37.34,success
-2025-11-08T03:30:23.199503,conv_014,brainstorming,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,18,100,70.56,4,100,74.12,35.8,success
-2025-11-08T03:31:23.199503,conv_015,brainstorming,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,18,100,74.14,3,100,70.46,44.26,success
-2025-11-08T03:32:23.199503,conv_015,brainstorming,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,12,100,80.44,2,100,74.04,43.74,success
-2025-11-08T03:33:23.199503,conv_015,brainstorming,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,18,100,65.07,4,100,67.77,26.35,success
-2025-11-08T03:34:23.199503,conv_015,brainstorming,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,21,100,73.69,2,100,71.95,42.43,success
-2025-11-08T03:35:23.199503,conv_015,brainstorming,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,19,100,79.09,2,100,75.21,25.44,success
-2025-11-08T03:36:23.199503,conv_015,brainstorming,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,10,100,78.37,4,100,74.34,33.92,success
-2025-11-08T03:37:23.199503,conv_015,brainstorming,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,10,100,74.39,4,100,79.76,38.87,success
-2025-11-08T03:38:23.199503,conv_015,brainstorming,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,23,100,84.59,5,100,88.61,28.02,success
-2025-11-08T03:39:23.199503,conv_015,brainstorming,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,17,100,81.91,4,100,83.25,32.95,success
-2025-11-08T03:40:23.199503,conv_015,brainstorming,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,17,100,84.66,3,100,89.49,25.62,success
-2025-11-08T03:41:23.199503,conv_015,brainstorming,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,23,100,74.82,3,100,69.74,44.36,success
-2025-11-08T03:42:23.199503,conv_015,brainstorming,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,17,100,84.79,4,100,80.35,41.9,success
-2025-11-08T03:43:23.199503,conv_015,brainstorming,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,23,100,80.78,2,100,87.21,43.42,success
-2025-11-08T03:44:23.199503,conv_015,brainstorming,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,19,100,87.92,2,100,88.25,27.5,success
-2025-11-08T03:45:23.199503,conv_015,brainstorming,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,25,100,66.39,3,100,70.62,26.28,success
-2025-11-08T03:46:23.199503,conv_016,info_search,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,20,100,67.85,3,100,64.04,34.1,success
-2025-11-08T03:47:23.199503,conv_016,info_search,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,10,100,67.05,3,100,65.74,38.9,success
-2025-11-08T03:48:23.199503,conv_016,info_search,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,19,100,65.24,3,100,71.86,27.1,success
-2025-11-08T03:49:23.199503,conv_016,info_search,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,13,100,82.9,4,100,80.98,36.19,success
-2025-11-08T03:50:23.199503,conv_016,info_search,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,18,100,71.42,2,100,73.62,26.57,success
-2025-11-08T03:51:23.199503,conv_016,info_search,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,16,100,70.94,4,100,69.99,41.01,success
-2025-11-08T03:52:23.199503,conv_016,info_search,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,16,100,77.85,4,100,84.53,39.13,success
-2025-11-08T03:53:23.199503,conv_016,info_search,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,15,100,86.78,4,100,83.3,39.28,success
-2025-11-08T03:54:23.199503,conv_016,info_search,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,22,100,81.96,2,100,77.1,42.9,success
-2025-11-08T03:55:23.199503,conv_016,info_search,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,18,100,90.71,4,100,91.59,35.53,success
-2025-11-08T03:56:23.199503,conv_016,info_search,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,18,100,67.63,3,100,74.15,28.19,success
-2025-11-08T03:57:23.199503,conv_016,info_search,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,19,100,84.76,3,100,77.4,28.64,success
-2025-11-08T03:58:23.199503,conv_016,info_search,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,22,100,87.06,3,100,87.09,39.38,success
-2025-11-08T03:59:23.199503,conv_016,info_search,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,18,100,77.25,4,100,82.19,26.44,success
-2025-11-08T04:00:23.199503,conv_016,info_search,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,83.07,4,100,79.46,33.51,success
-2025-11-08T04:01:23.199503,conv_017,info_search,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,12,100,72.3,2,100,65.87,42.34,success
-2025-11-08T04:02:23.199503,conv_017,info_search,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,26,100,62.9,3,100,60.19,42.47,success
-2025-11-08T04:03:23.199503,conv_017,info_search,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,21,100,66.05,3,100,69.14,43.25,success
-2025-11-08T04:04:23.199503,conv_017,info_search,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,12,100,85.87,4,100,83.66,27.63,success
-2025-11-08T04:05:23.199503,conv_017,info_search,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,19,100,75.31,3,100,80.47,44.43,success
-2025-11-08T04:06:23.199503,conv_017,info_search,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,16,100,76.5,3,100,76.62,42.41,success
-2025-11-08T04:07:23.199503,conv_017,info_search,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,10,100,88.3,3,100,90.86,28.27,success
-2025-11-08T04:08:23.199503,conv_017,info_search,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,17,100,80.77,4,100,84.87,31.5,success
-2025-11-08T04:09:23.199503,conv_017,info_search,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,19,100,84.96,3,100,77.66,29.72,success
-2025-11-08T04:10:23.199503,conv_017,info_search,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,19,100,79.43,3,100,74.52,29.97,success
-2025-11-08T04:11:23.199503,conv_017,info_search,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,21,100,77.94,2,100,83.5,25.73,success
-2025-11-08T04:12:23.199503,conv_017,info_search,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,22,100,82.81,4,100,83.24,41.11,success
-2025-11-08T04:13:23.199503,conv_017,info_search,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,18,100,83.91,2,100,89.15,30.39,success
-2025-11-08T04:14:23.199503,conv_017,info_search,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,15,100,89.42,2,100,82.24,27.44,success
-2025-11-08T04:15:23.199503,conv_017,info_search,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,74.81,3,100,77.66,25.83,success
-2025-11-08T04:16:23.199503,conv_018,info_search,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,19,100,78.05,3,100,72.7,35.31,success
-2025-11-08T04:17:23.199503,conv_018,info_search,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,17,100,72.79,2,100,78.44,31.16,success
-2025-11-08T04:18:23.199503,conv_018,info_search,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,20,100,67.57,5,100,65.31,26.88,success
-2025-11-08T04:19:23.199503,conv_018,info_search,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,25,100,83.62,2,100,77.88,38.85,success
-2025-11-08T04:20:23.199503,conv_018,info_search,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,26,100,79.68,4,100,77.85,36.41,success
-2025-11-08T04:21:23.199503,conv_018,info_search,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,22,100,75.95,4,100,80.53,32.88,success
-2025-11-08T04:22:23.199503,conv_018,info_search,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,19,100,85.77,5,100,83.14,25.96,success
-2025-11-08T04:23:23.199503,conv_018,info_search,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,19,100,88.81,4,100,82.68,36.34,success
-2025-11-08T04:24:23.199503,conv_018,info_search,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,19,100,81.23,3,100,82.82,38.35,success
-2025-11-08T04:25:23.199503,conv_018,info_search,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,20,100,93.23,3,100,87.99,41.36,success
-2025-11-08T04:26:23.199503,conv_018,info_search,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,13,100,69.03,3,100,76.6,32.33,success
-2025-11-08T04:27:23.199503,conv_018,info_search,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,14,100,85.03,3,100,86.97,29.75,success
-2025-11-08T04:28:23.199503,conv_018,info_search,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,15,100,70.92,4,100,77.53,38.36,success
-2025-11-08T04:29:23.199503,conv_018,info_search,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,27,100,76.67,4,100,78.56,35.38,success
-2025-11-08T04:30:23.199503,conv_018,info_search,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,17,100,69.45,3,100,71.73,32.98,success
-2025-11-08T04:31:23.199503,conv_019,info_search,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,27,100,78.78,4,100,77.11,41.26,success
-2025-11-08T04:32:23.199503,conv_019,info_search,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,19,100,72.44,2,100,66.74,43.69,success
-2025-11-08T04:33:23.199503,conv_019,info_search,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,16,100,66.04,3,100,66.23,30.7,success
-2025-11-08T04:34:23.199503,conv_019,info_search,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,15,100,86.53,3,100,85.85,37.21,success
-2025-11-08T04:35:23.199503,conv_019,info_search,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,21,100,71.79,2,100,73.05,28.62,success
-2025-11-08T04:36:23.199503,conv_019,info_search,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,20,100,70.51,4,100,70.15,27.14,success
-2025-11-08T04:37:23.199503,conv_019,info_search,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,19,100,86.35,3,100,79.04,41.12,success
-2025-11-08T04:38:23.199503,conv_019,info_search,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,18,100,82.24,5,100,80.11,37.03,success
-2025-11-08T04:39:23.199503,conv_019,info_search,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,18,100,75.88,3,100,80.24,37.22,success
-2025-11-08T04:40:23.199503,conv_019,info_search,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,16,100,98.01,3,100,90.75,29.74,success
-2025-11-08T04:41:23.199503,conv_019,info_search,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,21,100,77.08,3,100,72.41,38.35,success
-2025-11-08T04:42:23.199503,conv_019,info_search,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,14,100,79.42,3,100,80.2,28.36,success
-2025-11-08T04:43:23.199503,conv_019,info_search,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,19,100,82.23,2,100,87.17,25.47,success
-2025-11-08T04:44:23.199503,conv_019,info_search,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,24,100,88.95,3,100,88.12,32.82,success
-2025-11-08T04:45:23.199503,conv_019,info_search,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,28,100,80.73,2,100,73.56,38.9,success
-2025-11-08T04:46:23.199503,conv_020,info_search,comb_01,simple_hierarchical,v1_simple,v1_simple,v1_simple,hierarchical,10,100,67.64,4,100,64.82,44.83,success
-2025-11-08T04:47:23.199503,conv_020,info_search,comb_02,simple_radial,v1_simple,v1_simple,v1_simple,radial,24,100,67.65,2,100,70.84,26.71,success
-2025-11-08T04:48:23.199503,conv_020,info_search,comb_03,simple_timeline,v1_simple,v1_simple,v1_simple,timeline,15,100,62.63,2,100,64.5,35.38,success
-2025-11-08T04:49:23.199503,conv_020,info_search,comb_04,detailed_hierarchical,v2_detailed,v2_detailed,v2_detailed,hierarchical,11,100,88.42,4,100,82.17,35.66,success
-2025-11-08T04:50:23.199503,conv_020,info_search,comb_05,detailed_radial,v2_detailed,v2_detailed,v2_detailed,radial,13,100,74.58,5,100,72.14,38.24,success
-2025-11-08T04:51:23.199503,conv_020,info_search,comb_06,detailed_timeline,v2_detailed,v2_detailed,v2_detailed,timeline,19,100,82.78,2,100,83.36,36.25,success
-2025-11-08T04:52:23.199503,conv_020,info_search,comb_07,strict_hierarchical,v3_strict,v3_strict,v3_strict,hierarchical,20,100,82.63,2,100,82.05,34.01,success
-2025-11-08T04:53:23.199503,conv_020,info_search,comb_08,strict_radial,v3_strict,v3_strict,v3_strict,radial,22,100,81.94,4,100,79.32,43.54,success
-2025-11-08T04:54:23.199503,conv_020,info_search,comb_09,strict_timeline,v3_strict,v3_strict,v3_strict,timeline,12,100,71.95,5,100,77.33,43.54,success
-2025-11-08T04:55:23.199503,conv_020,info_search,comb_10,hybrid_s1d2_hier,v1_simple,v2_detailed,v2_detailed,hierarchical,18,100,91.45,4,100,91.07,26.78,success
-2025-11-08T04:56:23.199503,conv_020,info_search,comb_11,hybrid_d1s2_hier,v2_detailed,v1_simple,v1_simple,hierarchical,19,100,78.15,4,100,73.36,39.17,success
-2025-11-08T04:57:23.199503,conv_020,info_search,comb_12,hybrid_s1str2_radial,v1_simple,v3_strict,v3_strict,radial,12,100,68.88,5,100,75.07,36.08,success
-2025-11-08T04:58:23.199503,conv_020,info_search,comb_13,hybrid_str1d2_radial,v3_strict,v2_detailed,v2_detailed,radial,11,100,78.92,4,100,79.76,35.31,success
-2025-11-08T04:59:23.199503,conv_020,info_search,comb_14,hybrid_d1str2_timeline,v2_detailed,v3_strict,v3_strict,timeline,21,100,90.04,4,100,81.97,29.17,success
-2025-11-08T05:00:23.199503,conv_020,info_search,comb_15,hybrid_str1s2_timeline,v3_strict,v1_simple,v1_simple,timeline,22,100,77.24,4,100,71.81,41.12,success
+timestamp,conversation_id,conversation_type,combination_id,combination_name,status,failure_reason,node_count,node_score,keyword_overlap,max_depth,depth_score,total_score,elapsed_time
+2025-11-08 04:51:39,conv_000,learning_short,comb_01,simple_hierarchical,success,,23.0,0.804,0.841,4.0,0.8,80.51,12.95
+2025-11-08 04:51:44,conv_000,learning_short,comb_02,simple_force,failed,validation_error,,,,,,,5.671117368334277
+2025-11-08 04:51:52,conv_000,learning_short,comb_03,simple_radial,success,,32.0,0.419,0.665,4.0,0.89,68.4,4.84
+2025-11-08 04:52:22,conv_000,learning_short,comb_04,detailed_hierarchical,success,,28.0,0.967,0.725,2.0,0.852,81.93,9.0
+2025-11-08 04:52:21,conv_000,learning_short,comb_05,detailed_force,success,,7.0,0.409,0.684,6.0,0.584,67.35,8.63
+2025-11-08 04:52:08,conv_000,learning_short,comb_06,detailed_radial,success,,13.0,0.973,0.775,3.0,0.819,79.57,7.65
+2025-11-08 04:52:49,conv_000,learning_short,comb_07,strict_hierarchical,success,,23.0,0.851,0.663,3.0,0.806,77.28,11.39
+2025-11-08 04:53:17,conv_000,learning_short,comb_08,strict_force,success,,14.0,0.986,0.86,6.0,0.532,85.05,10.31
+2025-11-08 04:52:36,conv_000,learning_short,comb_09,strict_timeline,success,,20.0,0.93,0.65,6.0,0.591,76.51,9.02
+2025-11-08 04:53:26,conv_000,learning_short,comb_10,hybrid_s1d2_hier,success,,15.0,0.851,0.759,5.0,0.899,84.4,8.92
+2025-11-08 04:52:57,conv_000,learning_short,comb_11,hybrid_s1d2_force,success,,20.0,0.829,0.743,4.0,0.848,78.42,9.55
+2025-11-08 04:53:54,conv_000,learning_short,comb_12,hybrid_d1s2_radial,success,,18.0,0.837,0.826,4.0,0.865,96.3,9.61
+2025-11-08 04:54:04,conv_000,learning_short,comb_13,hybrid_str1d2_radial,success,,21.0,0.935,0.943,3.0,0.985,94.57,12.3
+2025-11-08 04:54:30,conv_000,learning_short,comb_14,hybrid_d1str2_timeline,success,,20.0,0.868,0.749,3.0,0.971,81.44,9.9
+2025-11-08 04:54:53,conv_000,learning_short,comb_15,hybrid_all_hier,success,,6.0,0.479,0.819,4.0,0.942,78.06,9.83
+2025-11-08 04:54:31,conv_001,learning_short,comb_01,simple_hierarchical,success,,12.0,0.995,0.684,4.0,0.981,73.67,4.7
+2025-11-08 04:53:55,conv_001,learning_short,comb_02,simple_force,success,,20.0,0.809,0.811,4.0,0.977,77.29,6.46
+2025-11-08 04:54:38,conv_001,learning_short,comb_03,simple_radial,success,,16.0,0.875,0.631,4.0,0.939,67.91,4.37
+2025-11-08 04:53:26,conv_001,learning_short,comb_04,detailed_hierarchical,success,,25.0,0.859,0.72,3.0,0.851,71.12,7.67
+2025-11-08 04:53:27,conv_001,learning_short,comb_05,detailed_force,success,,14.0,0.996,0.895,4.0,0.85,87.94,6.9
+2025-11-08 04:54:20,conv_001,learning_short,comb_06,detailed_radial,success,,18.0,0.839,0.779,3.0,0.927,83.6,9.15
+2025-11-08 04:54:32,conv_001,learning_short,comb_07,strict_hierarchical,success,,14.0,0.835,0.755,3.0,0.848,85.68,11.28
+2025-11-08 04:54:09,conv_001,learning_short,comb_08,strict_force,success,,18.0,0.824,0.66,4.0,0.819,71.86,9.92
+2025-11-08 04:55:21,conv_001,learning_short,comb_09,strict_timeline,success,,25.0,0.989,0.878,4.0,0.915,84.47,11.77
+2025-11-08 04:56:13,conv_001,learning_short,comb_10,hybrid_s1d2_hier,success,,20.0,0.864,0.853,3.0,0.852,83.74,8.69
+2025-11-08 04:57:38,conv_001,learning_short,comb_11,hybrid_s1d2_force,success,,30.0,0.946,0.753,2.0,0.955,85.97,10.48
+2025-11-08 04:57:51,conv_001,learning_short,comb_12,hybrid_d1s2_radial,success,,25.0,0.965,0.773,3.0,0.878,84.55,8.78
+2025-11-08 04:58:11,conv_001,learning_short,comb_13,hybrid_str1d2_radial,success,,26.0,0.958,0.87,4.0,0.899,86.27,9.22
+2025-11-08 04:56:33,conv_001,learning_short,comb_14,hybrid_d1str2_timeline,success,,27.0,0.82,0.743,5.0,0.815,85.71,10.71
+2025-11-08 04:54:29,conv_001,learning_short,comb_15,hybrid_all_hier,success,,13.0,0.955,0.733,3.0,0.822,76.23,9.35
+2025-11-08 04:54:12,conv_002,learning_short,comb_01,simple_hierarchical,success,,20.0,0.857,0.744,4.0,0.887,72.7,6.97
+2025-11-08 04:55:54,conv_002,learning_short,comb_02,simple_force,success,,13.0,0.999,0.697,3.0,0.98,70.45,3.8
+2025-11-08 04:55:49,conv_002,learning_short,comb_03,simple_radial,success,,8.0,0.441,0.658,4.0,0.995,68.06,11.2
+2025-11-08 04:56:06,conv_002,learning_short,comb_04,detailed_hierarchical,success,,26.0,0.997,0.752,4.0,0.95,85.5,7.57
+2025-11-08 04:59:11,conv_002,learning_short,comb_05,detailed_force,success,,22.0,0.945,0.761,3.0,0.849,75.97,7.0
+2025-11-08 04:58:29,conv_002,learning_short,comb_06,detailed_radial,success,,18.0,0.97,0.68,4.0,0.818,70.79,10.8
+2025-11-08 04:58:11,conv_002,learning_short,comb_07,strict_hierarchical,success,,24.0,0.996,0.853,3.0,0.878,87.79,10.45
+2025-11-08 04:57:54,conv_002,learning_short,comb_08,strict_force,success,,8.0,0.484,0.865,4.0,0.869,82.67,10.11
+2025-11-08 04:58:29,conv_002,learning_short,comb_09,strict_timeline,success,,20.0,0.939,0.648,3.0,0.903,69.46,14.13
+2025-11-08 05:00:14,conv_002,learning_short,comb_10,hybrid_s1d2_hier,success,,24.0,0.826,0.766,6.0,0.528,83.64,9.25
+2025-11-08 04:59:34,conv_002,learning_short,comb_11,hybrid_s1d2_force,success,,14.0,0.997,0.808,5.0,0.897,84.36,9.44
+2025-11-08 05:00:10,conv_002,learning_short,comb_12,hybrid_d1s2_radial,success,,13.0,0.889,0.785,6.0,0.721,82.06,8.87
+2025-11-08 04:59:06,conv_002,learning_short,comb_13,hybrid_str1d2_radial,success,,15.0,0.93,0.712,4.0,0.907,75.24,9.47
+2025-11-08 04:56:09,conv_002,learning_short,comb_14,hybrid_d1str2_timeline,success,,21.0,0.847,0.825,4.0,0.873,94.77,9.61
+2025-11-08 05:01:33,conv_002,learning_short,comb_15,hybrid_all_hier,success,,20.0,0.964,0.908,5.0,0.895,91.41,10.51
+2025-11-08 05:00:55,conv_003,learning_short,comb_01,simple_hierarchical,success,,16.0,0.919,0.681,5.0,0.827,73.75,4.98
+2025-11-08 05:03:04,conv_003,learning_short,comb_02,simple_force,success,,30.0,0.882,0.574,2.0,0.97,62.46,7.1
+2025-11-08 05:03:20,conv_003,learning_short,comb_03,simple_radial,success,,21.0,0.95,0.728,3.0,0.833,72.08,7.43
+2025-11-08 05:00:58,conv_003,learning_short,comb_04,detailed_hierarchical,success,,10.0,0.893,0.591,5.0,0.888,64.91,7.52
+2025-11-08 05:00:05,conv_003,learning_short,comb_05,detailed_force,success,,24.0,0.833,0.867,2.0,0.907,84.56,11.44
+2025-11-08 05:02:23,conv_003,learning_short,comb_06,detailed_radial,success,,21.0,0.975,0.777,4.0,0.907,84.59,9.72
+2025-11-08 05:00:10,conv_003,learning_short,comb_07,strict_hierarchical,success,,26.0,0.943,0.774,4.0,0.836,79.83,14.99
+2025-11-08 05:01:02,conv_003,learning_short,comb_08,strict_force,success,,21.0,0.804,0.988,4.0,0.984,96.44,11.66
+2025-11-08 04:56:40,conv_003,learning_short,comb_09,strict_timeline,success,,20.0,0.866,0.707,3.0,0.918,77.49,10.25
+2025-11-08 04:56:39,conv_003,learning_short,comb_10,hybrid_s1d2_hier,success,,10.0,0.948,0.751,3.0,0.85,79.86,10.62
+2025-11-08 04:58:47,conv_003,learning_short,comb_11,hybrid_s1d2_force,success,,25.0,0.907,0.72,5.0,0.919,81.2,8.74
+2025-11-08 05:03:19,conv_003,learning_short,comb_12,hybrid_d1s2_radial,success,,14.0,0.813,0.989,3.0,0.905,98.44,10.37
+2025-11-08 04:57:52,conv_003,learning_short,comb_13,hybrid_str1d2_radial,success,,13.0,0.805,0.78,3.0,0.973,88.55,10.69
+2025-11-08 05:01:49,conv_003,learning_short,comb_14,hybrid_d1str2_timeline,success,,21.0,0.911,0.9,3.0,0.849,90.51,10.61
+2025-11-08 05:00:28,conv_003,learning_short,comb_15,hybrid_all_hier,success,,8.0,0.657,0.79,4.0,0.867,77.92,12.53
+2025-11-08 05:00:17,conv_004,learning_medium,comb_01,simple_hierarchical,success,,19.0,0.995,0.688,2.0,0.974,68.4,5.59
+2025-11-08 05:01:03,conv_004,learning_medium,comb_02,simple_force,failed,api_error,,,,,,,6.450121665371993
+2025-11-08 05:04:02,conv_004,learning_medium,comb_03,simple_radial,success,,20.0,0.937,0.838,4.0,0.963,82.57,6.03
+2025-11-08 04:57:36,conv_004,learning_medium,comb_04,detailed_hierarchical,success,,12.0,0.946,0.647,6.0,0.648,71.86,8.22
+2025-11-08 05:05:12,conv_004,learning_medium,comb_05,detailed_force,success,,16.0,0.983,0.731,5.0,0.913,73.49,9.14
+2025-11-08 05:04:15,conv_004,learning_medium,comb_06,detailed_radial,success,,18.0,0.899,0.68,3.0,0.925,70.16,7.15
+2025-11-08 05:01:41,conv_004,learning_medium,comb_07,strict_hierarchical,success,,25.0,0.992,0.855,6.0,0.634,84.84,9.63
+2025-11-08 05:03:17,conv_004,learning_medium,comb_08,strict_force,success,,20.0,0.929,0.627,6.0,0.783,63.43,10.2
+2025-11-08 04:59:22,conv_004,learning_medium,comb_09,strict_timeline,success,,18.0,0.972,0.791,3.0,0.904,77.63,11.9
+2025-11-08 05:04:53,conv_004,learning_medium,comb_10,hybrid_s1d2_hier,success,,9.0,0.529,0.708,4.0,0.958,70.07,9.77
+2025-11-08 05:04:40,conv_004,learning_medium,comb_11,hybrid_s1d2_force,success,,27.0,0.88,0.84,6.0,0.674,88.79,8.43
+2025-11-08 05:02:17,conv_004,learning_medium,comb_12,hybrid_d1s2_radial,success,,16.0,0.971,0.735,4.0,0.808,73.99,8.5
+2025-11-08 05:02:16,conv_004,learning_medium,comb_13,hybrid_str1d2_radial,success,,18.0,0.923,0.73,4.0,0.813,82.69,9.81
+2025-11-08 05:07:56,conv_004,learning_medium,comb_14,hybrid_d1str2_timeline,success,,22.0,0.926,0.774,6.0,0.778,86.61,16.12
+2025-11-08 05:07:10,conv_004,learning_medium,comb_15,hybrid_all_hier,success,,33.0,0.632,0.728,6.0,0.617,83.87,9.73
+2025-11-08 05:03:51,conv_005,learning_medium,comb_01,simple_hierarchical,success,,18.0,0.907,0.745,4.0,0.998,71.42,4.63
+2025-11-08 05:09:28,conv_005,learning_medium,comb_02,simple_force,success,,23.0,0.849,0.604,6.0,0.6,68.58,4.96
+2025-11-08 05:10:00,conv_005,learning_medium,comb_03,simple_radial,success,,17.0,0.801,0.76,4.0,0.949,74.92,5.1
+2025-11-08 05:04:45,conv_005,learning_medium,comb_04,detailed_hierarchical,failed,parse_error,,,,,,,2.504589346807908
+2025-11-08 05:02:32,conv_005,learning_medium,comb_05,detailed_force,success,,17.0,0.968,0.705,4.0,0.821,75.94,11.09
+2025-11-08 05:07:29,conv_005,learning_medium,comb_06,detailed_radial,success,,10.0,0.809,0.86,4.0,0.93,83.91,8.05
+2025-11-08 05:09:29,conv_005,learning_medium,comb_07,strict_hierarchical,success,,26.0,0.86,0.794,4.0,0.931,77.96,10.36
+2025-11-08 05:11:29,conv_005,learning_medium,comb_08,strict_force,success,,13.0,0.997,0.677,4.0,0.846,72.66,10.22
+2025-11-08 05:03:40,conv_005,learning_medium,comb_09,strict_timeline,success,,21.0,0.925,0.714,4.0,0.982,81.43,15.43
+2025-11-08 05:01:15,conv_005,learning_medium,comb_10,hybrid_s1d2_hier,success,,13.0,0.865,0.84,5.0,0.862,86.76,9.05
+2025-11-08 05:07:14,conv_005,learning_medium,comb_11,hybrid_s1d2_force,success,,13.0,0.848,0.859,4.0,0.924,82.02,10.28
+2025-11-08 05:06:50,conv_005,learning_medium,comb_12,hybrid_d1s2_radial,failed,parse_error,,,,,,,2.434497632878049
+2025-11-08 05:06:39,conv_005,learning_medium,comb_13,hybrid_str1d2_radial,success,,24.0,0.808,0.917,5.0,0.927,93.23,10.39
+2025-11-08 05:09:23,conv_005,learning_medium,comb_14,hybrid_d1str2_timeline,success,,28.0,0.89,0.882,6.0,0.549,90.08,9.52
+2025-11-08 05:09:49,conv_005,learning_medium,comb_15,hybrid_all_hier,success,,18.0,0.974,0.82,3.0,0.832,87.56,7.48
+2025-11-08 05:07:17,conv_006,learning_medium,comb_01,simple_hierarchical,success,,20.0,0.835,0.741,5.0,0.885,71.12,4.8
+2025-11-08 05:04:52,conv_006,learning_medium,comb_02,simple_force,success,,11.0,0.918,0.565,3.0,0.925,54.68,5.5
+2025-11-08 05:10:18,conv_006,learning_medium,comb_03,simple_radial,success,,20.0,0.889,0.652,6.0,0.699,68.45,4.35
+2025-11-08 05:09:30,conv_006,learning_medium,comb_04,detailed_hierarchical,success,,26.0,0.847,0.605,3.0,0.888,67.47,9.36
+2025-11-08 05:01:46,conv_006,learning_medium,comb_05,detailed_force,success,,19.0,0.956,0.657,5.0,0.917,66.34,8.52
+2025-11-08 05:02:50,conv_006,learning_medium,comb_06,detailed_radial,success,,18.0,0.863,0.758,4.0,0.997,79.68,12.97
+2025-11-08 05:06:56,conv_006,learning_medium,comb_07,strict_hierarchical,success,,26.0,0.84,0.875,3.0,0.838,88.82,10.94
+2025-11-08 05:02:15,conv_006,learning_medium,comb_08,strict_force,success,,22.0,0.823,0.843,4.0,0.935,83.49,9.29
+2025-11-08 05:10:27,conv_006,learning_medium,comb_09,strict_timeline,success,,21.0,0.948,0.843,4.0,0.865,82.19,12.6
+2025-11-08 05:13:14,conv_006,learning_medium,comb_10,hybrid_s1d2_hier,success,,19.0,0.865,0.769,5.0,0.913,83.32,10.99
+2025-11-08 05:09:05,conv_006,learning_medium,comb_11,hybrid_s1d2_force,success,,19.0,0.908,0.892,3.0,0.896,85.72,9.84
+2025-11-08 05:05:49,conv_006,learning_medium,comb_12,hybrid_d1s2_radial,success,,23.0,0.944,0.929,4.0,0.839,89.26,9.12
+2025-11-08 05:04:17,conv_006,learning_medium,comb_13,hybrid_str1d2_radial,success,,10.0,0.857,0.83,3.0,0.916,91.01,8.56
+2025-11-08 05:12:33,conv_006,learning_medium,comb_14,hybrid_d1str2_timeline,success,,13.0,0.959,0.699,5.0,0.993,78.79,9.67
+2025-11-08 05:01:04,conv_006,learning_medium,comb_15,hybrid_all_hier,success,,14.0,0.922,0.766,5.0,0.954,82.21,9.19
+2025-11-08 05:04:52,conv_007,learning_medium,comb_01,simple_hierarchical,success,,19.0,0.885,0.606,2.0,0.947,68.84,7.33
+2025-11-08 05:00:54,conv_007,learning_medium,comb_02,simple_force,success,,16.0,0.998,0.626,4.0,0.935,71.39,7.44
+2025-11-08 05:08:31,conv_007,learning_medium,comb_03,simple_radial,success,,21.0,0.929,0.627,6.0,0.597,64.68,4.42
+2025-11-08 05:10:00,conv_007,learning_medium,comb_04,detailed_hierarchical,success,,19.0,0.865,0.61,4.0,0.81,66.52,9.61
+2025-11-08 05:07:20,conv_007,learning_medium,comb_05,detailed_force,success,,20.0,0.951,0.654,6.0,0.747,74.02,5.33
+2025-11-08 05:03:01,conv_007,learning_medium,comb_06,detailed_radial,success,,14.0,0.851,0.789,2.0,0.922,78.35,8.48
+2025-11-08 05:03:51,conv_007,learning_medium,comb_07,strict_hierarchical,success,,14.0,0.902,0.794,5.0,0.988,78.26,13.26
+2025-11-08 05:11:42,conv_007,learning_medium,comb_08,strict_force,success,,28.0,0.906,0.829,3.0,0.958,83.41,11.21
+2025-11-08 05:02:35,conv_007,learning_medium,comb_09,strict_timeline,success,,22.0,0.827,0.89,4.0,0.921,87.01,10.25
+2025-11-08 05:16:50,conv_007,learning_medium,comb_10,hybrid_s1d2_hier,success,,17.0,0.987,0.663,4.0,0.8,64.7,7.75
+2025-11-08 05:12:47,conv_007,learning_medium,comb_11,hybrid_s1d2_force,success,,20.0,0.924,0.855,5.0,0.848,94.05,8.44
+2025-11-08 05:03:16,conv_007,learning_medium,comb_12,hybrid_d1s2_radial,success,,9.0,0.55,0.788,5.0,0.945,82.51,11.59
+2025-11-08 05:09:18,conv_007,learning_medium,comb_13,hybrid_str1d2_radial,success,,19.0,0.85,0.804,4.0,0.804,91.71,8.51
+2025-11-08 05:12:01,conv_007,learning_medium,comb_14,hybrid_d1str2_timeline,success,,26.0,0.82,0.799,4.0,0.973,84.34,8.79
+2025-11-08 05:14:29,conv_007,learning_medium,comb_15,hybrid_all_hier,success,,20.0,0.962,0.721,2.0,0.968,83.38,8.49
+2025-11-08 05:14:24,conv_008,learning_long,comb_01,simple_hierarchical,success,,11.0,0.947,0.77,4.0,0.81,80.86,4.61
+2025-11-08 05:16:47,conv_008,learning_long,comb_02,simple_force,success,,5.0,0.697,0.663,3.0,0.932,63.47,5.76
+2025-11-08 05:07:12,conv_008,learning_long,comb_03,simple_radial,failed,parse_error,,,,,,,5.087945519441069
+2025-11-08 05:20:20,conv_008,learning_long,comb_04,detailed_hierarchical,success,,23.0,0.864,0.667,5.0,0.823,76.25,8.16
+2025-11-08 05:21:00,conv_008,learning_long,comb_05,detailed_force,success,,18.0,0.875,0.651,6.0,0.549,67.86,7.85
+2025-11-08 05:12:24,conv_008,learning_long,comb_06,detailed_radial,failed,timeout,,,,,,,3.715440735434961
+2025-11-08 05:19:17,conv_008,learning_long,comb_07,strict_hierarchical,success,,27.0,0.946,0.88,4.0,0.951,87.5,10.16
+2025-11-08 05:13:39,conv_008,learning_long,comb_08,strict_force,success,,17.0,0.868,0.7,4.0,0.918,75.05,11.32
+2025-11-08 05:17:01,conv_008,learning_long,comb_09,strict_timeline,success,,17.0,0.96,0.725,4.0,0.947,81.44,10.56
+2025-11-08 05:06:27,conv_008,learning_long,comb_10,hybrid_s1d2_hier,success,,11.0,0.83,0.693,5.0,0.9,76.1,9.95
+2025-11-08 05:19:23,conv_008,learning_long,comb_11,hybrid_s1d2_force,success,,24.0,0.902,0.789,4.0,0.916,79.29,9.53
+2025-11-08 05:14:48,conv_008,learning_long,comb_12,hybrid_d1s2_radial,success,,18.0,0.812,0.719,4.0,0.842,78.41,9.27
+2025-11-08 05:05:20,conv_008,learning_long,comb_13,hybrid_str1d2_radial,success,,24.0,0.86,0.771,4.0,0.927,87.12,11.52
+2025-11-08 05:05:21,conv_008,learning_long,comb_14,hybrid_d1str2_timeline,success,,11.0,0.867,0.673,2.0,0.917,78.68,10.17
+2025-11-08 05:20:18,conv_008,learning_long,comb_15,hybrid_all_hier,success,,5.0,0.675,0.726,4.0,0.81,73.26,11.37
+2025-11-08 05:23:22,conv_009,learning_long,comb_01,simple_hierarchical,success,,17.0,0.857,0.605,4.0,0.852,70.47,4.74
+2025-11-08 05:09:09,conv_009,learning_long,comb_02,simple_force,success,,5.0,0.439,0.711,3.0,0.946,69.01,6.4
+2025-11-08 05:05:59,conv_009,learning_long,comb_03,simple_radial,success,,17.0,0.829,0.734,4.0,0.913,73.74,5.5
+2025-11-08 05:11:11,conv_009,learning_long,comb_04,detailed_hierarchical,success,,23.0,0.823,0.74,6.0,0.738,72.42,10.52
+2025-11-08 05:17:26,conv_009,learning_long,comb_05,detailed_force,success,,16.0,0.972,0.673,5.0,0.909,71.47,8.41
+2025-11-08 05:14:02,conv_009,learning_long,comb_06,detailed_radial,success,,24.0,0.904,0.635,4.0,0.932,71.26,6.85
+2025-11-08 05:09:24,conv_009,learning_long,comb_07,strict_hierarchical,success,,15.0,0.856,0.782,3.0,0.821,84.21,11.06
+2025-11-08 05:21:50,conv_009,learning_long,comb_08,strict_force,success,,30.0,0.96,0.784,5.0,0.904,84.36,11.55
+2025-11-08 05:16:52,conv_009,learning_long,comb_09,strict_timeline,success,,21.0,0.807,0.843,4.0,0.888,91.38,11.25
+2025-11-08 05:26:52,conv_009,learning_long,comb_10,hybrid_s1d2_hier,success,,19.0,0.832,0.806,6.0,0.528,94.58,9.33
+2025-11-08 05:23:37,conv_009,learning_long,comb_11,hybrid_s1d2_force,success,,23.0,0.863,0.759,4.0,0.966,84.24,9.55
+2025-11-08 05:23:55,conv_009,learning_long,comb_12,hybrid_d1s2_radial,success,,22.0,0.924,0.714,4.0,0.961,77.61,12.29
+2025-11-08 05:10:07,conv_009,learning_long,comb_13,hybrid_str1d2_radial,success,,21.0,0.931,0.849,5.0,0.856,80.98,10.15
+2025-11-08 05:11:31,conv_009,learning_long,comb_14,hybrid_d1str2_timeline,success,,20.0,0.958,0.742,3.0,0.93,75.51,12.0
+2025-11-08 05:04:04,conv_009,learning_long,comb_15,hybrid_all_hier,success,,12.0,0.96,0.753,2.0,0.808,79.61,10.34
+2025-11-08 05:25:36,conv_010,learning_long,comb_01,simple_hierarchical,success,,23.0,0.856,0.773,5.0,0.941,75.43,5.25
+2025-11-08 05:06:40,conv_010,learning_long,comb_02,simple_force,success,,9.0,0.597,0.536,4.0,0.975,62.32,6.69
+2025-11-08 05:29:22,conv_010,learning_long,comb_03,simple_radial,success,,23.0,0.915,0.733,4.0,0.844,74.68,4.96
+2025-11-08 05:23:12,conv_010,learning_long,comb_04,detailed_hierarchical,success,,17.0,0.928,0.828,4.0,0.877,84.06,8.54
+2025-11-08 05:19:54,conv_010,learning_long,comb_05,detailed_force,success,,15.0,0.809,0.669,2.0,0.89,76.25,6.39
+2025-11-08 05:20:39,conv_010,learning_long,comb_06,detailed_radial,success,,20.0,0.857,0.745,4.0,0.914,79.01,8.58
+2025-11-08 05:14:58,conv_010,learning_long,comb_07,strict_hierarchical,success,,18.0,0.94,0.847,2.0,0.878,80.78,12.62
+2025-11-08 05:27:49,conv_010,learning_long,comb_08,strict_force,success,,23.0,0.808,0.898,3.0,0.823,87.64,8.8
+2025-11-08 05:08:00,conv_010,learning_long,comb_09,strict_timeline,success,,11.0,0.919,0.656,3.0,0.828,76.99,11.11
+2025-11-08 05:08:59,conv_010,learning_long,comb_10,hybrid_s1d2_hier,success,,31.0,0.58,0.765,4.0,0.825,88.23,10.74
+2025-11-08 05:22:23,conv_010,learning_long,comb_11,hybrid_s1d2_force,success,,23.0,0.889,0.755,3.0,0.89,74.82,9.26
+2025-11-08 05:25:27,conv_010,learning_long,comb_12,hybrid_d1s2_radial,success,,18.0,0.929,0.649,2.0,0.869,75.58,8.79
+2025-11-08 05:22:21,conv_010,learning_long,comb_13,hybrid_str1d2_radial,success,,9.0,0.387,0.88,2.0,0.821,84.04,9.79
+2025-11-08 05:31:38,conv_010,learning_long,comb_14,hybrid_d1str2_timeline,success,,8.0,0.425,0.635,4.0,0.858,72.2,12.51
+2025-11-08 05:21:48,conv_010,learning_long,comb_15,hybrid_all_hier,success,,10.0,0.911,0.698,4.0,0.849,72.81,11.35
+2025-11-08 05:15:12,conv_011,learning_long,comb_01,simple_hierarchical,success,,14.0,0.909,0.659,5.0,1.0,74.61,4.33
+2025-11-08 05:27:08,conv_011,learning_long,comb_02,simple_force,success,,12.0,0.971,0.632,4.0,0.846,63.67,9.85
+2025-11-08 05:30:53,conv_011,learning_long,comb_03,simple_radial,success,,15.0,0.855,0.743,4.0,0.83,72.46,5.42
+2025-11-08 05:29:50,conv_011,learning_long,comb_04,detailed_hierarchical,success,,19.0,0.898,0.71,3.0,0.979,73.53,6.18
+2025-11-08 05:18:13,conv_011,learning_long,comb_05,detailed_force,success,,22.0,0.848,0.605,3.0,0.89,66.36,8.8
+2025-11-08 05:06:21,conv_011,learning_long,comb_06,detailed_radial,success,,13.0,0.961,0.733,5.0,0.906,80.91,8.46
+2025-11-08 05:34:08,conv_011,learning_long,comb_07,strict_hierarchical,success,,20.0,0.94,0.767,5.0,0.898,88.08,8.61
+2025-11-08 05:07:52,conv_011,learning_long,comb_08,strict_force,success,,28.0,0.941,0.721,3.0,0.942,83.86,11.45
+2025-11-08 05:12:09,conv_011,learning_long,comb_09,strict_timeline,success,,16.0,0.968,0.761,4.0,0.807,79.34,11.35
+2025-11-08 05:11:36,conv_011,learning_long,comb_10,hybrid_s1d2_hier,success,,21.0,0.893,0.746,4.0,0.961,83.14,11.48
+2025-11-08 05:21:24,conv_011,learning_long,comb_11,hybrid_s1d2_force,success,,13.0,0.811,0.825,6.0,0.5,82.5,9.31
+2025-11-08 05:30:56,conv_011,learning_long,comb_12,hybrid_d1s2_radial,failed,timeout,,,,,,,7.642691034417036
+2025-11-08 05:08:50,conv_011,learning_long,comb_13,hybrid_str1d2_radial,success,,24.0,0.989,0.756,4.0,0.875,80.87,13.61
+2025-11-08 05:09:08,conv_011,learning_long,comb_14,hybrid_d1str2_timeline,success,,27.0,0.993,0.868,2.0,0.935,86.63,12.67
+2025-11-08 05:25:29,conv_011,learning_long,comb_15,hybrid_all_hier,success,,13.0,0.954,0.684,5.0,0.954,80.36,9.57
+2025-11-08 05:13:01,conv_012,brainstorming,comb_01,simple_hierarchical,success,,8.0,0.355,0.735,3.0,0.947,74.99,10.66
+2025-11-08 05:08:18,conv_012,brainstorming,comb_02,simple_force,success,,21.0,0.956,0.729,4.0,0.938,75.99,5.06
+2025-11-08 05:07:46,conv_012,brainstorming,comb_03,simple_radial,success,,26.0,0.891,0.662,2.0,0.904,73.31,9.65
+2025-11-08 05:10:44,conv_012,brainstorming,comb_04,detailed_hierarchical,failed,validation_error,,,,,,,4.295481941423812
+2025-11-08 05:18:16,conv_012,brainstorming,comb_05,detailed_force,success,,10.0,0.914,0.746,4.0,0.929,77.37,12.82
+2025-11-08 05:31:08,conv_012,brainstorming,comb_06,detailed_radial,success,,17.0,0.949,0.707,4.0,0.992,74.82,10.18
+2025-11-08 05:31:29,conv_012,brainstorming,comb_07,strict_hierarchical,success,,15.0,0.828,0.795,3.0,0.829,81.62,11.26
+2025-11-08 05:28:15,conv_012,brainstorming,comb_08,strict_force,success,,21.0,0.812,0.749,4.0,0.899,85.13,10.69
+2025-11-08 05:08:43,conv_012,brainstorming,comb_09,strict_timeline,success,,21.0,0.986,0.814,3.0,0.833,81.21,11.04
+2025-11-08 05:15:01,conv_012,brainstorming,comb_10,hybrid_s1d2_hier,success,,15.0,0.803,0.646,3.0,0.946,75.71,8.7
+2025-11-08 05:29:36,conv_012,brainstorming,comb_11,hybrid_s1d2_force,success,,9.0,0.613,0.852,3.0,0.954,81.76,10.03
+2025-11-08 05:14:51,conv_012,brainstorming,comb_12,hybrid_d1s2_radial,success,,17.0,0.806,0.75,4.0,0.858,79.31,8.56
+2025-11-08 05:37:04,conv_012,brainstorming,comb_13,hybrid_str1d2_radial,success,,23.0,0.871,0.897,4.0,0.877,88.99,10.68
+2025-11-08 05:36:45,conv_012,brainstorming,comb_14,hybrid_d1str2_timeline,success,,22.0,0.845,0.829,5.0,0.916,88.53,8.9
+2025-11-08 05:32:21,conv_012,brainstorming,comb_15,hybrid_all_hier,success,,17.0,0.895,0.85,4.0,0.841,89.53,9.54
+2025-11-08 05:08:58,conv_013,brainstorming,comb_01,simple_hierarchical,success,,12.0,0.965,0.644,2.0,0.908,67.57,5.97
+2025-11-08 05:21:52,conv_013,brainstorming,comb_02,simple_force,success,,16.0,0.995,0.582,4.0,0.802,64.99,4.89
+2025-11-08 05:32:05,conv_013,brainstorming,comb_03,simple_radial,success,,14.0,0.854,0.674,4.0,0.881,77.02,5.46
+2025-11-08 05:33:19,conv_013,brainstorming,comb_04,detailed_hierarchical,success,,17.0,0.926,0.632,2.0,0.92,66.77,8.5
+2025-11-08 05:11:38,conv_013,brainstorming,comb_05,detailed_force,success,,24.0,0.892,0.756,5.0,0.825,73.06,10.85
+2025-11-08 05:19:48,conv_013,brainstorming,comb_06,detailed_radial,success,,25.0,0.887,0.779,2.0,0.876,81.12,8.02
+2025-11-08 05:21:17,conv_013,brainstorming,comb_07,strict_hierarchical,success,,25.0,0.909,0.924,3.0,0.886,88.6,10.81
+2025-11-08 05:24:43,conv_013,brainstorming,comb_08,strict_force,success,,16.0,0.9,0.751,5.0,0.987,86.96,12.67
+2025-11-08 05:16:56,conv_013,brainstorming,comb_09,strict_timeline,success,,22.0,0.886,0.8,4.0,0.814,77.99,11.99
+2025-11-08 05:18:22,conv_013,brainstorming,comb_10,hybrid_s1d2_hier,success,,22.0,0.934,0.826,5.0,0.884,84.63,10.35
+2025-11-08 05:18:10,conv_013,brainstorming,comb_11,hybrid_s1d2_force,success,,27.0,0.941,0.722,2.0,0.88,77.28,8.47
+2025-11-08 05:15:52,conv_013,brainstorming,comb_12,hybrid_d1s2_radial,success,,19.0,0.815,0.828,6.0,0.528,79.57,11.07
+2025-11-08 05:18:07,conv_013,brainstorming,comb_13,hybrid_str1d2_radial,success,,9.0,0.408,0.779,4.0,0.989,80.34,9.41
+2025-11-08 05:14:21,conv_013,brainstorming,comb_14,hybrid_d1str2_timeline,success,,27.0,0.882,0.764,4.0,0.987,89.57,10.28
+2025-11-08 05:34:49,conv_013,brainstorming,comb_15,hybrid_all_hier,success,,20.0,0.963,0.756,3.0,0.918,79.39,10.16
+2025-11-08 05:31:28,conv_014,brainstorming,comb_01,simple_hierarchical,success,,12.0,0.854,0.601,5.0,0.871,66.84,5.7
+2025-11-08 05:30:09,conv_014,brainstorming,comb_02,simple_force,success,,23.0,0.879,0.694,5.0,0.948,72.82,5.05
+2025-11-08 05:11:44,conv_014,brainstorming,comb_03,simple_radial,success,,16.0,0.933,0.749,4.0,0.882,74.35,8.45
+2025-11-08 05:27:08,conv_014,brainstorming,comb_04,detailed_hierarchical,success,,22.0,0.84,0.826,5.0,0.811,85.38,9.29
+2025-11-08 05:42:33,conv_014,brainstorming,comb_05,detailed_force,success,,15.0,0.814,0.625,4.0,0.949,70.41,8.95
+2025-11-08 05:38:27,conv_014,brainstorming,comb_06,detailed_radial,success,,14.0,0.975,0.632,5.0,0.991,62.24,7.92
+2025-11-08 05:22:25,conv_014,brainstorming,comb_07,strict_hierarchical,success,,18.0,0.935,0.899,5.0,0.892,88.33,8.75
+2025-11-08 05:35:51,conv_014,brainstorming,comb_08,strict_force,success,,26.0,0.859,0.724,2.0,0.883,75.54,11.91
+2025-11-08 05:41:51,conv_014,brainstorming,comb_09,strict_timeline,success,,14.0,0.849,0.657,4.0,0.844,72.69,15.44
+2025-11-08 05:25:05,conv_014,brainstorming,comb_10,hybrid_s1d2_hier,success,,5.0,0.648,0.906,2.0,0.899,92.77,12.56
+2025-11-08 05:26:05,conv_014,brainstorming,comb_11,hybrid_s1d2_force,success,,27.0,0.971,0.833,3.0,0.912,84.59,9.11
+2025-11-08 05:10:26,conv_014,brainstorming,comb_12,hybrid_d1s2_radial,success,,7.0,0.617,0.806,3.0,0.964,85.77,9.13
+2025-11-08 05:28:04,conv_014,brainstorming,comb_13,hybrid_str1d2_radial,success,,18.0,0.949,0.825,4.0,0.93,80.88,9.58
+2025-11-08 05:26:21,conv_014,brainstorming,comb_14,hybrid_d1str2_timeline,success,,15.0,0.874,0.755,4.0,0.809,80.1,9.0
+2025-11-08 05:45:01,conv_014,brainstorming,comb_15,hybrid_all_hier,success,,15.0,0.885,0.775,5.0,0.935,80.78,9.99
+2025-11-08 05:35:15,conv_015,brainstorming,comb_01,simple_hierarchical,success,,25.0,0.971,0.665,4.0,0.877,69.36,5.55
+2025-11-08 05:17:28,conv_015,brainstorming,comb_02,simple_force,success,,10.0,0.89,0.698,2.0,0.854,66.98,6.35
+2025-11-08 05:34:39,conv_015,brainstorming,comb_03,simple_radial,success,,7.0,0.565,0.647,4.0,0.892,63.83,11.13
+2025-11-08 05:40:33,conv_015,brainstorming,comb_04,detailed_hierarchical,success,,8.0,0.655,0.729,5.0,0.972,71.79,8.41
+2025-11-08 05:30:21,conv_015,brainstorming,comb_05,detailed_force,success,,21.0,0.993,0.777,3.0,1.0,76.53,8.33
+2025-11-08 05:12:22,conv_015,brainstorming,comb_06,detailed_radial,success,,21.0,0.803,0.695,3.0,0.941,69.28,7.78
+2025-11-08 05:11:06,conv_015,brainstorming,comb_07,strict_hierarchical,success,,26.0,0.935,0.682,6.0,0.569,77.7,11.8
+2025-11-08 05:46:52,conv_015,brainstorming,comb_08,strict_force,success,,19.0,0.935,0.849,3.0,0.822,86.14,13.16
+2025-11-08 05:35:36,conv_015,brainstorming,comb_09,strict_timeline,success,,22.0,0.883,0.747,4.0,0.891,83.86,11.18
+2025-11-08 05:11:54,conv_015,brainstorming,comb_10,hybrid_s1d2_hier,success,,20.0,0.898,0.824,3.0,0.915,88.55,9.43
+2025-11-08 05:47:19,conv_015,brainstorming,comb_11,hybrid_s1d2_force,success,,16.0,0.921,0.762,5.0,0.9,74.27,13.3
+2025-11-08 05:42:47,conv_015,brainstorming,comb_12,hybrid_d1s2_radial,success,,28.0,0.988,0.812,4.0,0.87,80.75,10.48
+2025-11-08 05:27:02,conv_015,brainstorming,comb_13,hybrid_str1d2_radial,success,,16.0,0.895,0.681,5.0,0.82,79.04,7.41
+2025-11-08 05:43:09,conv_015,brainstorming,comb_14,hybrid_d1str2_timeline,success,,27.0,0.813,0.727,4.0,0.98,81.45,9.84
+2025-11-08 05:14:37,conv_015,brainstorming,comb_15,hybrid_all_hier,success,,20.0,0.896,0.743,5.0,0.925,73.86,8.3
+2025-11-08 05:30:02,conv_016,info_search,comb_01,simple_hierarchical,success,,20.0,0.933,0.69,5.0,0.968,68.6,12.64
+2025-11-08 05:47:28,conv_016,info_search,comb_02,simple_force,success,,17.0,0.872,0.789,3.0,0.825,77.19,6.65
+2025-11-08 05:48:15,conv_016,info_search,comb_03,simple_radial,success,,15.0,0.994,0.686,4.0,0.826,66.15,8.2
+2025-11-08 05:18:36,conv_016,info_search,comb_04,detailed_hierarchical,success,,15.0,0.988,0.889,2.0,0.946,86.4,9.12
+2025-11-08 05:25:43,conv_016,info_search,comb_05,detailed_force,success,,28.0,0.811,0.756,2.0,0.83,81.7,7.55
+2025-11-08 05:31:55,conv_016,info_search,comb_06,detailed_radial,success,,17.0,0.893,0.723,5.0,0.897,72.2,8.76
+2025-11-08 05:36:37,conv_016,info_search,comb_07,strict_hierarchical,success,,6.0,0.546,0.867,4.0,0.81,83.96,8.19
+2025-11-08 05:46:47,conv_016,info_search,comb_08,strict_force,success,,15.0,0.922,0.737,2.0,0.922,81.3,10.4
+2025-11-08 05:14:37,conv_016,info_search,comb_09,strict_timeline,success,,10.0,0.95,0.644,5.0,0.955,68.8,10.04
+2025-11-08 05:52:18,conv_016,info_search,comb_10,hybrid_s1d2_hier,success,,23.0,0.989,0.787,4.0,0.87,76.61,11.8
+2025-11-08 05:26:38,conv_016,info_search,comb_11,hybrid_s1d2_force,success,,23.0,0.828,0.698,2.0,0.818,76.45,15.95
+2025-11-08 05:51:51,conv_016,info_search,comb_12,hybrid_d1s2_radial,success,,13.0,0.89,0.827,3.0,0.849,80.04,8.45
+2025-11-08 05:40:27,conv_016,info_search,comb_13,hybrid_str1d2_radial,success,,29.0,0.88,0.824,4.0,0.951,80.19,8.52
+2025-11-08 05:31:17,conv_016,info_search,comb_14,hybrid_d1str2_timeline,success,,18.0,0.823,0.824,4.0,0.947,83.5,8.96
+2025-11-08 05:37:31,conv_016,info_search,comb_15,hybrid_all_hier,success,,16.0,0.913,0.586,3.0,0.882,59.67,10.38
+2025-11-08 05:17:06,conv_017,info_search,comb_01,simple_hierarchical,success,,17.0,0.94,0.647,5.0,0.835,66.45,5.97
+2025-11-08 05:25:38,conv_017,info_search,comb_02,simple_force,success,,27.0,0.845,0.636,2.0,0.828,65.33,6.47
+2025-11-08 05:16:20,conv_017,info_search,comb_03,simple_radial,success,,21.0,0.913,0.646,5.0,0.962,72.87,6.91
+2025-11-08 05:29:41,conv_017,info_search,comb_04,detailed_hierarchical,success,,30.0,0.807,0.745,4.0,0.85,78.79,7.56
+2025-11-08 05:53:18,conv_017,info_search,comb_05,detailed_force,success,,16.0,0.93,0.584,3.0,0.881,65.2,9.75
+2025-11-08 05:48:37,conv_017,info_search,comb_06,detailed_radial,success,,14.0,0.932,0.739,4.0,0.911,85.54,7.32
+2025-11-08 05:44:17,conv_017,info_search,comb_07,strict_hierarchical,success,,5.0,0.427,0.722,4.0,0.906,79.64,10.97
+2025-11-08 05:32:12,conv_017,info_search,comb_08,strict_force,success,,25.0,0.876,0.819,3.0,0.85,79.32,11.39
+2025-11-08 05:23:00,conv_017,info_search,comb_09,strict_timeline,success,,12.0,0.842,0.852,5.0,0.961,83.37,13.61
+2025-11-08 05:31:16,conv_017,info_search,comb_10,hybrid_s1d2_hier,success,,13.0,0.845,0.815,5.0,0.883,89.4,8.52
+2025-11-08 05:47:11,conv_017,info_search,comb_11,hybrid_s1d2_force,success,,25.0,0.833,0.727,4.0,0.967,81.12,15.34
+2025-11-08 05:19:49,conv_017,info_search,comb_12,hybrid_d1s2_radial,success,,18.0,0.917,0.689,4.0,0.995,80.81,10.44
+2025-11-08 05:25:59,conv_017,info_search,comb_13,hybrid_str1d2_radial,success,,22.0,0.845,0.785,4.0,0.818,87.74,9.02
+2025-11-08 05:22:37,conv_017,info_search,comb_14,hybrid_d1str2_timeline,success,,21.0,0.952,0.854,4.0,0.939,85.8,9.19
+2025-11-08 05:27:21,conv_017,info_search,comb_15,hybrid_all_hier,success,,19.0,0.965,0.856,3.0,0.939,88.53,8.75
+2025-11-08 05:43:01,conv_018,info_search,comb_01,simple_hierarchical,success,,21.0,0.935,0.795,3.0,0.809,78.36,5.43
+2025-11-08 05:15:49,conv_018,info_search,comb_02,simple_force,success,,11.0,0.952,0.479,3.0,0.997,50.33,5.86
+2025-11-08 05:34:00,conv_018,info_search,comb_03,simple_radial,success,,14.0,0.856,0.611,4.0,0.956,69.77,3.76
+2025-11-08 05:49:13,conv_018,info_search,comb_04,detailed_hierarchical,success,,29.0,0.937,0.789,4.0,0.855,81.73,10.61
+2025-11-08 05:24:49,conv_018,info_search,comb_05,detailed_force,success,,21.0,0.809,0.82,3.0,0.837,82.26,7.75
+2025-11-08 05:15:51,conv_018,info_search,comb_06,detailed_radial,success,,26.0,0.899,0.806,6.0,0.79,82.57,8.01
+2025-11-08 05:55:36,conv_018,info_search,comb_07,strict_hierarchical,success,,23.0,0.983,0.672,5.0,0.97,72.17,17.65
+2025-11-08 06:00:38,conv_018,info_search,comb_08,strict_force,success,,24.0,0.816,0.91,4.0,0.927,87.96,10.5
+2025-11-08 05:15:34,conv_018,info_search,comb_09,strict_timeline,success,,19.0,0.88,0.76,2.0,0.803,76.33,9.46
+2025-11-08 05:19:11,conv_018,info_search,comb_10,hybrid_s1d2_hier,success,,16.0,0.896,0.757,5.0,0.997,86.21,8.3
+2025-11-08 05:39:48,conv_018,info_search,comb_11,hybrid_s1d2_force,success,,26.0,0.863,0.769,3.0,0.948,87.75,10.3
+2025-11-08 05:27:05,conv_018,info_search,comb_12,hybrid_d1s2_radial,success,,19.0,0.959,0.79,5.0,0.825,88.07,11.9
+2025-11-08 05:20:14,conv_018,info_search,comb_13,hybrid_str1d2_radial,success,,14.0,0.909,0.778,4.0,0.905,86.78,10.23
+2025-11-08 05:46:02,conv_018,info_search,comb_14,hybrid_d1str2_timeline,success,,15.0,0.988,0.806,4.0,0.863,84.33,9.52
+2025-11-08 05:51:36,conv_018,info_search,comb_15,hybrid_all_hier,success,,9.0,0.674,0.615,5.0,0.864,68.33,10.65
+2025-11-08 05:37:34,conv_019,info_search,comb_01,simple_hierarchical,success,,16.0,0.997,0.574,4.0,0.888,67.55,6.92
+2025-11-08 05:18:25,conv_019,info_search,comb_02,simple_force,success,,15.0,0.916,0.767,4.0,0.859,82.48,4.6
+2025-11-08 05:45:13,conv_019,info_search,comb_03,simple_radial,success,,14.0,0.859,0.651,6.0,0.619,68.05,4.62
+2025-11-08 05:22:32,conv_019,info_search,comb_04,detailed_hierarchical,success,,27.0,0.966,0.702,3.0,0.926,81.11,9.28
+2025-11-08 06:01:03,conv_019,info_search,comb_05,detailed_force,success,,16.0,0.896,0.599,4.0,0.924,59.21,8.21
+2025-11-08 05:58:03,conv_019,info_search,comb_06,detailed_radial,success,,16.0,0.892,0.756,2.0,0.967,75.54,6.43
+2025-11-08 05:28:44,conv_019,info_search,comb_07,strict_hierarchical,success,,21.0,0.833,0.729,3.0,0.925,78.18,10.76
+2025-11-08 05:24:59,conv_019,info_search,comb_08,strict_force,success,,19.0,0.888,0.689,3.0,0.948,78.01,8.89
+2025-11-08 05:57:49,conv_019,info_search,comb_09,strict_timeline,success,,24.0,0.999,0.685,4.0,0.81,76.97,12.16
+2025-11-08 05:18:19,conv_019,info_search,comb_10,hybrid_s1d2_hier,success,,24.0,0.815,0.742,2.0,0.959,83.94,9.88
+2025-11-08 05:19:08,conv_019,info_search,comb_11,hybrid_s1d2_force,success,,25.0,0.883,0.783,2.0,0.804,79.89,14.62
+2025-11-08 05:18:22,conv_019,info_search,comb_12,hybrid_d1s2_radial,success,,21.0,0.918,0.663,3.0,0.926,76.01,9.69
+2025-11-08 05:50:25,conv_019,info_search,comb_13,hybrid_str1d2_radial,success,,18.0,0.839,0.854,2.0,0.967,84.37,10.98
+2025-11-08 05:59:31,conv_019,info_search,comb_14,hybrid_d1str2_timeline,success,,5.0,0.699,0.746,3.0,0.879,85.06,9.81
+2025-11-08 05:40:41,conv_019,info_search,comb_15,hybrid_all_hier,success,,35.0,0.628,0.789,3.0,0.965,88.48,7.85

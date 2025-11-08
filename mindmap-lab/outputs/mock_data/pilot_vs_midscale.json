@@ -1,0 +1,24 @@
+{
+  "pilot_experiment": {
+    "combinations": 10,
+    "total_experiments": 194,
+    "mean_score": 76.52,
+    "std_score": 7.94,
+    "top_3": {
+      "comb_10": 82.818,
+      "comb_07": 82.5615,
+      "comb_08": 81.514
+    }
+  },
+  "midscale_experiment": {
+    "combinations": 15,
+    "total_experiments": 292,
+    "mean_score": 78.64,
+    "std_score": 7.99,
+    "top_3": {
+      "comb_13": 85.23049999999999,
+      "comb_14": 84.1805,
+      "comb_10": 82.818
+    }
+  }
+}

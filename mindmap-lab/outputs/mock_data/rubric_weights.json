@@ -14,11 +14,16 @@
   "validation": {
     "spearman_correlation": 0.847,
     "spearman_p_value": 0.0001,
+    "spearman_ci_95": [
+      0.803,
+      0.884
+    ],
     "fleiss_kappa": 0.723,
-    "interpretation": "substantial agreement"
+    "interpretation": "substantial agreement",
+    "optimization_iterations": 247,
+    "optimization_time_sec": 3.2
   },
   "learning_method": "regression_with_expert_scores",
   "expert_panel_size": 3,
-  "sample_size": 50,
-  "notes": "가중치는 전문가 점수와의 상관관계를 최대화하도록 학습됨"
+  "sample_size": 50
 }

@@ -1,132 +1,47 @@
 {
   "learning_short": {
-    "total_experiments": 45,
-    "avg_score": 78.00888888888889,
-    "std_score": 7.0498030991917595,
-    "best_combination": "strict_hierarchical",
-    "best_score": 86.84666666666668,
-    "top_3": [
-      {
-        "combination": "strict_hierarchical",
-        "score": 86.84666666666668
-      },
-      {
-        "combination": "hybrid_d1str2_timeline",
-        "score": 85.46333333333332
-      },
-      {
-        "combination": "hybrid_s1d2_hier",
-        "score": 83.83999999999999
-      }
-    ],
-    "metric_averages": {
-      "node_count": 18.177777777777777,
-      "keyword_overlap": 76.7431111111111,
-      "max_depth": 3.2222222222222223
-    }
+    "total_experiments": 59,
+    "avg_score": 80.39,
+    "std_score": 8.26,
+    "best_combination": "comb_12",
+    "best_score": 90.34,
+    "avg_node_count": 18.8,
+    "avg_keyword_overlap": 0.768
   },
   "learning_medium": {
-    "total_experiments": 60,
-    "avg_score": 78.07649999999998,
-    "std_score": 9.006522650514864,
-    "best_combination": "strict_hierarchical",
-    "best_score": 89.135,
-    "top_3": [
-      {
-        "combination": "strict_hierarchical",
-        "score": 89.135
-      },
-      {
-        "combination": "hybrid_str1d2_radial",
-        "score": 88.235
-      },
-      {
-        "combination": "hybrid_s1d2_hier",
-        "score": 86.485
-      }
-    ],
-    "metric_averages": {
-      "node_count": 18.516666666666666,
-      "keyword_overlap": 78.87583333333332,
-      "max_depth": 3.35
-    }
+    "total_experiments": 57,
+    "avg_score": 78.43,
+    "std_score": 8.83,
+    "best_combination": "comb_13",
+    "best_score": 89.66,
+    "avg_node_count": 18.9,
+    "avg_keyword_overlap": 0.755
   },
   "learning_long": {
-    "total_experiments": 45,
-    "avg_score": 78.33177777777777,
-    "std_score": 8.486405784035615,
-    "best_combination": "hybrid_str1d2_radial",
-    "best_score": 93.64,
-    "top_3": [
-      {
-        "combination": "hybrid_str1d2_radial",
-        "score": 93.64
-      },
-      {
-        "combination": "hybrid_s1d2_hier",
-        "score": 85.87333333333333
-      },
-      {
-        "combination": "strict_hierarchical",
-        "score": 85.57
-      }
-    ],
-    "metric_averages": {
-      "node_count": 16.866666666666667,
-      "keyword_overlap": 78.48355555555555,
-      "max_depth": 3.2
-    }
+    "total_experiments": 57,
+    "avg_score": 78.02,
+    "std_score": 6.97,
+    "best_combination": "comb_10",
+    "best_score": 85.51,
+    "avg_node_count": 17.7,
+    "avg_keyword_overlap": 0.734
   },
   "brainstorming": {
-    "total_experiments": 75,
-    "avg_score": 78.2792,
-    "std_score": 7.410977934520245,
-    "best_combination": "hybrid_s1d2_hier",
-    "best_score": 86.854,
-    "top_3": [
-      {
-        "combination": "hybrid_s1d2_hier",
-        "score": 86.854
-      },
-      {
-        "combination": "hybrid_str1d2_radial",
-        "score": 86.53999999999999
-      },
-      {
-        "combination": "strict_hierarchical",
-        "score": 84.56
-      }
-    ],
-    "metric_averages": {
-      "node_count": 17.386666666666667,
-      "keyword_overlap": 77.78413333333333,
-      "max_depth": 3.36
-    }
+    "total_experiments": 59,
+    "avg_score": 78.31,
+    "std_score": 7.32,
+    "best_combination": "comb_10",
+    "best_score": 85.42,
+    "avg_node_count": 18.1,
+    "avg_keyword_overlap": 0.751
   },
   "info_search": {
-    "total_experiments": 75,
-    "avg_score": 77.91626666666669,
-    "std_score": 7.296025903324492,
-    "best_combination": "hybrid_s1d2_hier",
-    "best_score": 87.184,
-    "top_3": [
-      {
-        "combination": "hybrid_s1d2_hier",
-        "score": 87.184
-      },
-      {
-        "combination": "hybrid_str1d2_radial",
-        "score": 84.14000000000001
-      },
-      {
-        "combination": "strict_hierarchical",
-        "score": 83.924
-      }
-    ],
-    "metric_averages": {
-      "node_count": 18.14666666666667,
-      "keyword_overlap": 78.44573333333332,
-      "max_depth": 3.28
-    }
+    "total_experiments": 60,
+    "avg_score": 78.01,
+    "std_score": 8.42,
+    "best_combination": "comb_13",
+    "best_score": 84.77,
+    "avg_node_count": 18.9,
+    "avg_keyword_overlap": 0.739
   }
 }
