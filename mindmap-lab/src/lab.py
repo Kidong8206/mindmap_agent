@@ -298,11 +298,11 @@ class MindmapLab:
 
 if __name__ == "__main__":
     # API 키 확인
-    if not os.getenv('OPENAI_API_KEY'):
-        print("⚠ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.")
-        print("사용법: export OPENAI_API_KEY='your-key'")
+    if not os.getenv('ANTHROPIC_API_KEY'):
+        print("⚠ ANTHROPIC_API_KEY 환경변수가 설정되지 않았습니다.")
+        print("사용법: export ANTHROPIC_API_KEY='your-key'")
         sys.exit(1)
-    
+
     # 실험 실행
     lab = MindmapLab()
     lab.run_all(num_conversations=20)

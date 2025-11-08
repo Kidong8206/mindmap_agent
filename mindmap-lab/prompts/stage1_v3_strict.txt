@@ -3,7 +3,7 @@
 대화를 정확히 3-7개 세션으로 분류하세요.
 
 입력:
-{turns_jsonl_content}
+{conversation}
 
 규칙:
 1. 세션 개수: 반드시 3-7개

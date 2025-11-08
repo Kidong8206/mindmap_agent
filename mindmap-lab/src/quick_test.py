@@ -276,10 +276,10 @@ class QuickLab:
         print("  2. 문제 없으면 전체 실험: cd .. && ./run_full_experiment.sh")
 
 if __name__ == "__main__":
-    if not os.getenv('OPENAI_API_KEY'):
-        print("⚠ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.")
-        print("사용법: export OPENAI_API_KEY='your-key'")
+    if not os.getenv('ANTHROPIC_API_KEY'):
+        print("⚠ ANTHROPIC_API_KEY 환경변수가 설정되지 않았습니다.")
+        print("사용법: export ANTHROPIC_API_KEY='your-key'")
         sys.exit(1)
-    
+
     lab = QuickLab()
     lab.run_all()
