@@ -1,0 +1,144 @@
+{
+  "experiment_design": {
+    "pilot": {
+      "description": "First 10 algorithm combinations (comb_01 to comb_10)",
+      "combinations": 10,
+      "conversations": 20,
+      "total_experiments_planned": 200,
+      "successful_experiments": 194,
+      "failed_experiments": 6
+    },
+    "midscale": {
+      "description": "All 15 algorithm combinations (comb_01 to comb_15)",
+      "combinations": 15,
+      "conversations": 20,
+      "total_experiments_planned": 300,
+      "successful_experiments": 292,
+      "failed_experiments": 8
+    }
+  },
+  "pilot_results": {
+    "top_5_combinations": [
+      {
+        "combination_id": "comb_10",
+        "combination_name": "hybrid_s1d2_hier",
+        "mean_score": 83.18,
+        "std_dev": 7.26,
+        "sample_size": 20,
+        "rank": 1
+      },
+      {
+        "combination_id": "comb_07",
+        "combination_name": "strict_hierarchical",
+        "mean_score": 82.96,
+        "std_dev": 4.75,
+        "sample_size": 20,
+        "rank": 2
+      },
+      {
+        "combination_id": "comb_08",
+        "combination_name": "strict_force",
+        "mean_score": 81.98,
+        "std_dev": 6.68,
+        "sample_size": 20,
+        "rank": 3
+      },
+      {
+        "combination_id": "comb_09",
+        "combination_name": "strict_timeline",
+        "mean_score": 80.9,
+        "std_dev": 6.36,
+        "sample_size": 20,
+        "rank": 4
+      },
+      {
+        "combination_id": "comb_06",
+        "combination_name": "detailed_radial",
+        "mean_score": 77.03,
+        "std_dev": 6.17,
+        "sample_size": 19,
+        "rank": 5
+      }
+    ],
+    "bottom_3_combinations": [
+      {
+        "combination_id": "comb_03",
+        "combination_name": "simple_radial",
+        "mean_score": 70.97,
+        "std_dev": 4.85,
+        "sample_size": 19,
+        "rank": 8
+      },
+      {
+        "combination_id": "comb_01",
+        "combination_name": "simple_hierarchical",
+        "mean_score": 70.35,
+        "std_dev": 5.06,
+        "sample_size": 19,
+        "rank": 9
+      },
+      {
+        "combination_id": "comb_02",
+        "combination_name": "simple_force",
+        "mean_score": 67.84,
+        "std_dev": 7.26,
+        "sample_size": 19,
+        "rank": 10
+      }
+    ],
+    "statistics": {
+      "mean_score": 76.43,
+      "std_dev": 8.25,
+      "min_score": 50.33,
+      "max_score": 99.08,
+      "median_score": 76.43
+    }
+  },
+  "midscale_results": {
+    "top_3_combinations": [
+      {
+        "combination_id": "comb_13",
+        "combination_name": "hybrid_str1d2_radial",
+        "mean_score": 83.95,
+        "std_dev": 7.18,
+        "sample_size": 20,
+        "rank": 1
+      },
+      {
+        "combination_id": "comb_14",
+        "combination_name": "hybrid_d1str2_timeline",
+        "mean_score": 83.81,
+        "std_dev": 6.14,
+        "sample_size": 20,
+        "rank": 2
+      },
+      {
+        "combination_id": "comb_10",
+        "combination_name": "hybrid_s1d2_hier",
+        "mean_score": 83.18,
+        "std_dev": 7.26,
+        "sample_size": 20,
+        "rank": 3
+      }
+    ],
+    "statistics": {
+      "mean_score": 78.44,
+      "std_dev": 8.28,
+      "min_score": 50.33,
+      "max_score": 99.08,
+      "median_score": 79.32
+    }
+  },
+  "comparison": {
+    "improvement": {
+      "mean_score_change": 2.01,
+      "percent_change": 2.63,
+      "interpretation": "Midscale experiment with additional hybrid combinations improved performance"
+    },
+    "statistical_test": {
+      "t_statistic": 2.623,
+      "p_value": 0.009,
+      "significant": true
+    }
+  }
+}
