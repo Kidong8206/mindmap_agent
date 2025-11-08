@@ -1,0 +1,12 @@
+{
+  "experiment_name": "mindmap_generation_combinations",
+  "start_time": "2025-11-08 05:17:46",
+  "end_time": "2025-11-08 05:17:46",
+  "duration_seconds": 0.02,
+  "total_experiments": 300,
+  "successful_experiments": 292,
+  "failed_experiments": 8,
+  "random_seed": 42,
+  "api_used": "anthropic_claude",
+  "model": "claude-sonnet-4-5-20250929"
+}

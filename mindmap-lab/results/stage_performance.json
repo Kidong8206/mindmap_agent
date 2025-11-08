@@ -1,0 +1,53 @@
+{
+  "session_classification": {
+    "v1_simple": {
+      "mean_score": 75.17,
+      "std_dev": 9.05,
+      "sample_size": 97
+    },
+    "v2_detailed": {
+      "mean_score": 78.42,
+      "std_dev": 7.57,
+      "sample_size": 115
+    },
+    "v3_strict": {
+      "mean_score": 82.45,
+      "std_dev": 6.45,
+      "sample_size": 80
+    }
+  },
+  "context_extraction": {
+    "d1_basic": {
+      "mean_score": 72.63,
+      "std_dev": 7.95,
+      "sample_size": 75
+    },
+    "d2_detailed": {
+      "mean_score": 80.45,
+      "std_dev": 7.43,
+      "sample_size": 217
+    }
+  },
+  "layout_generation": {
+    "hierarchical": {
+      "mean_score": 78.37,
+      "std_dev": 8.16,
+      "sample_size": 97
+    },
+    "force": {
+      "mean_score": 76.52,
+      "std_dev": 9.0,
+      "sample_size": 79
+    },
+    "radial": {
+      "mean_score": 78.48,
+      "std_dev": 7.95,
+      "sample_size": 76
+    },
+    "timeline": {
+      "mean_score": 82.36,
+      "std_dev": 6.5,
+      "sample_size": 40
+    }
+  }
+}

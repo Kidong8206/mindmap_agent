@@ -1,0 +1,52 @@
+{
+  "by_session_algorithm": {
+    "v1_simple": {
+      "mean_seconds": 7.89,
+      "std_seconds": 2.83
+    },
+    "v2_detailed": {
+      "mean_seconds": 9.27,
+      "std_seconds": 1.64
+    },
+    "v3_strict": {
+      "mean_seconds": 10.97,
+      "std_seconds": 1.78
+    }
+  },
+  "by_context_algorithm": {
+    "d1_basic": {
+      "mean_seconds": 7.09,
+      "std_seconds": 2.44
+    },
+    "d2_detailed": {
+      "mean_seconds": 10.03,
+      "std_seconds": 1.95
+    }
+  },
+  "by_layout_algorithm": {
+    "hierarchical": {
+      "mean_seconds": 9.26,
+      "std_seconds": 2.37
+    },
+    "force": {
+      "mean_seconds": 9.04,
+      "std_seconds": 2.65
+    },
+    "radial": {
+      "mean_seconds": 8.62,
+      "std_seconds": 2.17
+    },
+    "timeline": {
+      "mean_seconds": 11.02,
+      "std_seconds": 1.9
+    }
+  },
+  "overall": {
+    "mean_seconds": 9.28,
+    "median_seconds": 9.34,
+    "std_seconds": 2.45,
+    "min_seconds": 3.67,
+    "max_seconds": 17.65,
+    "total_hours": 0.75
+  }
+}

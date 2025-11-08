@@ -1,0 +1,122 @@
+{
+  "learning_short": {
+    "total_experiments": 59,
+    "mean_score": 79.82,
+    "std_dev": 9.4,
+    "best_combination": "comb_12",
+    "best_score": 86.41,
+    "top_3_combinations": [
+      {
+        "rank": 1,
+        "combination_id": "comb_12",
+        "mean_score": 86.41
+      },
+      {
+        "rank": 2,
+        "combination_id": "comb_08",
+        "mean_score": 86.32
+      },
+      {
+        "rank": 3,
+        "combination_id": "comb_14",
+        "mean_score": 86.27
+      }
+    ]
+  },
+  "learning_medium": {
+    "total_experiments": 57,
+    "mean_score": 78.43,
+    "std_dev": 8.83,
+    "best_combination": "comb_13",
+    "best_score": 89.66,
+    "top_3_combinations": [
+      {
+        "rank": 1,
+        "combination_id": "comb_13",
+        "mean_score": 89.66
+      },
+      {
+        "rank": 2,
+        "combination_id": "comb_11",
+        "mean_score": 87.64
+      },
+      {
+        "rank": 3,
+        "combination_id": "comb_14",
+        "mean_score": 84.95
+      }
+    ]
+  },
+  "learning_long": {
+    "total_experiments": 57,
+    "mean_score": 77.64,
+    "std_dev": 7.4,
+    "best_combination": "comb_10",
+    "best_score": 85.51,
+    "top_3_combinations": [
+      {
+        "rank": 1,
+        "combination_id": "comb_10",
+        "mean_score": 85.51
+      },
+      {
+        "rank": 2,
+        "combination_id": "comb_07",
+        "mean_score": 85.14
+      },
+      {
+        "rank": 3,
+        "combination_id": "comb_08",
+        "mean_score": 82.73
+      }
+    ]
+  },
+  "brainstorming": {
+    "total_experiments": 59,
+    "mean_score": 78.31,
+    "std_dev": 7.32,
+    "best_combination": "comb_10",
+    "best_score": 85.42,
+    "top_3_combinations": [
+      {
+        "rank": 1,
+        "combination_id": "comb_10",
+        "mean_score": 85.41
+      },
+      {
+        "rank": 2,
+        "combination_id": "comb_14",
+        "mean_score": 84.91
+      },
+      {
+        "rank": 3,
+        "combination_id": "comb_07",
+        "mean_score": 84.06
+      }
+    ]
+  },
+  "info_search": {
+    "total_experiments": 60,
+    "mean_score": 78.01,
+    "std_dev": 8.42,
+    "best_combination": "comb_13",
+    "best_score": 84.77,
+    "top_3_combinations": [
+      {
+        "rank": 1,
+        "combination_id": "comb_13",
+        "mean_score": 84.77
+      },
+      {
+        "rank": 2,
+        "combination_id": "comb_14",
+        "mean_score": 84.67
+      },
+      {
+        "rank": 3,
+        "combination_id": "comb_10",
+        "mean_score": 84.04
+      }
+    ]
+  }
+}

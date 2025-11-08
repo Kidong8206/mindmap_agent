@@ -1,0 +1,20 @@
+{
+  "total_experiments": 300,
+  "successful": 292,
+  "failed": 8,
+  "failure_rate_percent": 2.67,
+  "score_statistics": {
+    "mean": 78.44,
+    "std": 8.29,
+    "min": 50.33,
+    "max": 99.08,
+    "q1": 72.61,
+    "median": 79.32,
+    "q3": 84.33
+  },
+  "execution_time": {
+    "total_hours": 0.75,
+    "mean_seconds": 9.28,
+    "std_seconds": 2.45
+  }
+}

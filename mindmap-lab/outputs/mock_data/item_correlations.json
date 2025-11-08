@@ -1,0 +1,124 @@
+{
+  "matrix": {
+    "topic_coherence": {
+      "topic_coherence": 1.0,
+      "context_continuity": 0.633,
+      "branch_validity": 0.577,
+      "summary_coherence": 0.552,
+      "topic_focus": 0.571,
+      "info_flow": 0.603,
+      "noise_suppression": 0.589,
+      "compression_ratio": 0.615,
+      "transition_stability": 0.564,
+      "clarity": 0.563
+    },
+    "context_continuity": {
+      "topic_coherence": 0.633,
+      "context_continuity": 1.0,
+      "branch_validity": 0.587,
+      "summary_coherence": 0.56,
+      "topic_focus": 0.588,
+      "info_flow": 0.577,
+      "noise_suppression": 0.606,
+      "compression_ratio": 0.621,
+      "transition_stability": 0.615,
+      "clarity": 0.591
+    },
+    "branch_validity": {
+      "topic_coherence": 0.577,
+      "context_continuity": 0.587,
+      "branch_validity": 1.0,
+      "summary_coherence": 0.536,
+      "topic_focus": 0.56,
+      "info_flow": 0.6,
+      "noise_suppression": 0.581,
+      "compression_ratio": 0.579,
+      "transition_stability": 0.513,
+      "clarity": 0.572
+    },
+    "summary_coherence": {
+      "topic_coherence": 0.552,
+      "context_continuity": 0.56,
+      "branch_validity": 0.536,
+      "summary_coherence": 1.0,
+      "topic_focus": 0.548,
+      "info_flow": 0.563,
+      "noise_suppression": 0.55,
+      "compression_ratio": 0.581,
+      "transition_stability": 0.534,
+      "clarity": 0.539
+    },
+    "topic_focus": {
+      "topic_coherence": 0.571,
+      "context_continuity": 0.588,
+      "branch_validity": 0.56,
+      "summary_coherence": 0.548,
+      "topic_focus": 1.0,
+      "info_flow": 0.65,
+      "noise_suppression": 0.591,
+      "compression_ratio": 0.587,
+      "transition_stability": 0.579,
+      "clarity": 0.632
+    },
+    "info_flow": {
+      "topic_coherence": 0.603,
+      "context_continuity": 0.577,
+      "branch_validity": 0.6,
+      "summary_coherence": 0.563,
+      "topic_focus": 0.65,
+      "info_flow": 1.0,
+      "noise_suppression": 0.647,
+      "compression_ratio": 0.61,
+      "transition_stability": 0.642,
+      "clarity": 0.612
+    },
+    "noise_suppression": {
+      "topic_coherence": 0.589,
+      "context_continuity": 0.606,
+      "branch_validity": 0.581,
+      "summary_coherence": 0.55,
+      "topic_focus": 0.591,
+      "info_flow": 0.647,
+      "noise_suppression": 1.0,
+      "compression_ratio": 0.565,
+      "transition_stability": 0.603,
+      "clarity": 0.591
+    },
+    "compression_ratio": {
+      "topic_coherence": 0.615,
+      "context_continuity": 0.621,
+      "branch_validity": 0.579,
+      "summary_coherence": 0.581,
+      "topic_focus": 0.587,
+      "info_flow": 0.61,
+      "noise_suppression": 0.565,
+      "compression_ratio": 1.0,
+      "transition_stability": 0.634,
+      "clarity": 0.615
+    },
+    "transition_stability": {
+      "topic_coherence": 0.564,
+      "context_continuity": 0.615,
+      "branch_validity": 0.513,
+      "summary_coherence": 0.534,
+      "topic_focus": 0.579,
+      "info_flow": 0.642,
+      "noise_suppression": 0.603,
+      "compression_ratio": 0.634,
+      "transition_stability": 1.0,
+      "clarity": 0.576
+    },
+    "clarity": {
+      "topic_coherence": 0.563,
+      "context_continuity": 0.591,
+      "branch_validity": 0.572,
+      "summary_coherence": 0.539,
+      "topic_focus": 0.632,
+      "info_flow": 0.612,
+      "noise_suppression": 0.591,
+      "compression_ratio": 0.615,
+      "transition_stability": 0.576,
+      "clarity": 1.0
+    }
+  }
+}
