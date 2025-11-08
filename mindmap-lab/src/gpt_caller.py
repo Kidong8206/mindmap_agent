@@ -1,18 +1,18 @@
 import os
 import time
 import json
-from openai import OpenAI
+from anthropic import Anthropic
 
 class GPTCaller:
-    """GPT API 호출 래퍼 (temperature=0.0, JSON 강제)"""
+    """Anthropic Claude API 호출 래퍼"""
     
     def __init__(self, api_key=None):
-        self.client = OpenAI(api_key=api_key or os.getenv('OPENAI_API_KEY'))
-        self.model = "gpt-4o"
+        self.client = Anthropic(api_key=api_key or os.getenv('ANTHROPIC_API_KEY'))
+        self.model = "claude-sonnet-4-5-20250929"
     
     def call(self, prompt_file, replacements, retry=True):
         """
-        GPT API 호출
+        Claude API 호출
         
         Args:
             prompt_file: 프롬프트 파일 경로
@@ -32,23 +32,48 @@ class GPTCaller:
                 value = json.dumps(value, ensure_ascii=False, indent=2)
             prompt = prompt.replace(f'{{{key}}}', str(value))
         
+        # JSON 출력 강제 지시 추가
+        prompt += "\n\n중요: 반드시 유효한 JSON 형식으로만 응답하세요. 다른 텍스트는 포함하지 마세요."
+        
         try:
-            # API 호출
-            response = self.client.chat.completions.create(
+            # Claude API 호출
+            response = self.client.messages.create(
                 model=self.model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.0,  # 결정적 출력
-                response_format={"type": "json_object"}  # JSON 강제
+                max_tokens=4096,
+                temperature=0.0,
+                messages=[{"role": "user", "content": prompt}]
             )
             
+            # 응답 텍스트 추출
+            response_text = response.content[0].text.strip()
+            
+            # ```json ... ``` 제거
+            if response_text.startswith('```json'):
+                response_text = response_text[7:]
+            if response_text.startswith('```'):
+                response_text = response_text[3:]
+            if response_text.endswith('```'):
+                response_text = response_text[:-3]
+            response_text = response_text.strip()
+            
             # JSON 파싱
-            result = json.loads(response.choices[0].message.content)
+            result = json.loads(response_text)
             return result
             
+        except json.JSONDecodeError as e:
+            print(f"⚠ JSON 파싱 실패: {e}")
+            print(f"응답: {response_text[:200]}...")
+            
+            if retry:
+                print("⏳ 5초 후 재시도...")
+                time.sleep(5)
+                return self.call(prompt_file, replacements, retry=False)
+            else:
+                raise
+                
         except Exception as e:
             print(f"⚠ API 호출 실패: {e}")
             
-            # 재시도
             if retry:
                 print("⏳ 5초 후 재시도...")
                 time.sleep(5)
