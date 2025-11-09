@@ -26,7 +26,7 @@ https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mi
 - **API**: OpenAI GPT-4 Turbo
 - **비용**: $15-25 | **시간**: 2-4시간 | **실험 수**: 300회
 
-### 📊 결과 분석 노트북
+### 📊 결과 분석 노트북 (개별)
 
 **Colab에서 바로 열기:**
 ```
@@ -34,8 +34,20 @@ https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mi
 ```
 
 - **기능**: CSV 업로드 → 자동 분석 → 그래프/표 생성 → 다운로드
-- **입력**: `experiments.csv` 또는 `experiments_gpt.csv`
+- **입력**: `experiments.csv` 또는 `experiments_gpt.csv` (하나만)
 - **출력**: 6개 파일 (그래프 4개 + 통계표 2개)
+
+### 🆚 비교 분석 노트북 (Claude vs GPT-4)
+
+**Colab에서 바로 열기:**
+```
+https://colab.research.google.com/github/Kidong8206/mindmap_agent/blob/claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi/mindmap-lab/Compare_Claude_GPT_Colab.ipynb
+```
+
+- **기능**: 두 CSV 동시 업로드 → 직접 비교 → 통계 검정 → 비교 보고서
+- **입력**: `experiments.csv` + `experiments_gpt.csv` (둘 다)
+- **출력**: 6개 파일 (비교 그래프 4개 + 통계표 1개 + 보고서 1개)
+- **통계**: t-test, Cohen's d, 조합별/유형별 비교
 
 ### 📖 상세 실행 가이드
 
@@ -56,7 +68,8 @@ Branch: claude/mindmap-lab-complete-workflow-011CUq5Xky7RXL4wVTUtJAyi
 **파일 선택:**
 - Claude 실험: `mindmap-lab/Mindmap_Experiment_Colab.ipynb`
 - GPT-4 실험: `mindmap-lab/Mindmap_Experiment_GPT_Colab.ipynb`
-- 결과 분석: `mindmap-lab/Analyze_Results_Colab.ipynb`
+- 결과 분석 (개별): `mindmap-lab/Analyze_Results_Colab.ipynb`
+- 비교 분석 (Claude vs GPT): `mindmap-lab/Compare_Claude_GPT_Colab.ipynb`
 
 ---
 
